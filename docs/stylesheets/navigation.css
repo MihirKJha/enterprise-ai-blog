@@ -462,3 +462,9 @@
     }
 
 }
+
+
+/* Disable the custom left sidebar collapse button */
+.sidebar-toggle {
+    display: none !important;
+}

@@ -253,7 +253,7 @@
 }
 
 .md-sidebar--secondary .md-nav__title::after {
-    content: "CHAPTER OUTLINE";
+    content: "OUTLINE";
 
     display: block;
 
