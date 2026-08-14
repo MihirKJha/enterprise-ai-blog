@@ -50,7 +50,6 @@ theme:
   features:
 
     # Navigation
-    - navigation.tabs
     - navigation.instant
     - navigation.tracking
     - navigation.indexes
