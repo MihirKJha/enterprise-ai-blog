@@ -8,12 +8,7 @@ description: >
 
 # 🚀 AI for Backend Engineers: Preparing Data for Production AI
 
-<p align="center">
-  <img
-    src="../../assets/banners/assets/articles/preparing-data-for-production-ai.png"
-    alt="AI for Backend Engineers — Preparing Data for Production AI"
-    width="100%">
-</p>
+![Preparing Data for Production AI Banner](../../assets/banners/articles/preparing-data-for-production-ai.png)
 
 
 > **Why great models often fail without great data.**
