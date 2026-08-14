@@ -117,10 +117,23 @@ markdown_extensions:
 plugins:
   - search
   - social
+  - mermaid2
+  - git-revision-date-localized:
+     enable_creation_date: true
+     type: timeago
+
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
 
 nav:
   - Home: index.md
-  - About: about.md  
+  - About: about.md
+
+  - Articles:
+      - AI Engineering:
+          - Building Intelligent Systems: articles/ai-engineering/building-intelligent-systems.md
    
 extra:
 
