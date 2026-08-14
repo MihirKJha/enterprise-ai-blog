@@ -10,7 +10,7 @@ description: >
 
 <p align="center">
   <img
-    src="../../assets/banners/articles/building-intelligent-systems-banner.png"
+    src="../../assets/banners/assets/articles/building-intelligent-systems-banner.png"
     alt="AI for Backend Engineers — Building Intelligent Systems"
     width="100%">
 </p>

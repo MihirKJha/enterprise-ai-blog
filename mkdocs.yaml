@@ -134,6 +134,7 @@ nav:
   - Articles:
       - AI Engineering:
           - Building Intelligent Systems: articles/ai-engineering/building-intelligent-systems.md
+          - Preparing Data for Production AI: articles/ai-engineering/preparing-data-for-production-ai.md
    
 extra:
 
