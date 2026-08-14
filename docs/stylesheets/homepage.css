@@ -1,0 +1,126 @@
+/*
+---------------------------------------------------------
+Enterprise AI Engineering Handbook
+Homepage
+---------------------------------------------------------
+*/
+
+/* ==========================================
+   Hero Banner
+========================================== */
+
+.hero {
+
+    text-align: center;
+
+    margin: 2rem 0 3rem 0;
+
+}
+
+.hero img {
+
+    border-radius: 18px;
+
+    box-shadow: 0 12px 32px rgba(0,0,0,.15);
+
+}
+
+/* ==========================================
+   Hero Title
+========================================== */
+
+.hero h1 {
+
+    margin-top: 1.5rem;
+
+    font-size: 2.8rem;
+
+    font-weight: 700;
+
+}
+
+.hero p {
+
+    font-size: 1.15rem;
+
+    color: var(--md-default-fg-color--light);
+
+}
+
+/* ==========================================
+   Statistics
+========================================== */
+
+.stats {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 1rem;
+
+    margin: 3rem 0;
+
+}
+
+.stats .stat {
+
+    min-width: 180px;
+
+    text-align: center;
+
+    border-radius: 14px;
+
+    padding: 1.25rem;
+
+    border: 1px solid rgba(127,127,127,.15);
+
+    background: var(--md-default-bg-color);
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.05);
+
+}
+
+.stats .number {
+
+    display: block;
+
+    font-size: 2rem;
+
+    font-weight: 700;
+
+    color: var(--md-primary-fg-color);
+
+}
+
+.stats .label {
+
+    font-size: .9rem;
+
+    color: var(--md-default-fg-color--light);
+
+}
+
+/* ==========================================
+   Feature Section
+========================================== */
+
+.features {
+
+    margin-top: 3rem;
+
+}
+
+/* ==========================================
+   Call To Action Buttons
+========================================== */
+
+.md-typeset .md-button {
+
+    border-radius: 10px;
+
+    padding: .7rem 1.3rem;
+
+}

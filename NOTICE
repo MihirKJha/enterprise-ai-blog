@@ -1,0 +1,32 @@
+# Notices
+
+## Enterprise AI Engineering Blog
+
+Copyright © 2026 Mihir Jha.
+
+The original blog articles, technical explanations, diagrams, architecture illustrations, infographics, frameworks, tables, and other editorial materials are protected by applicable copyright law unless otherwise stated.
+
+See:
+
+* `COPYRIGHT.md` for copyright and usage terms.
+* `LICENSE-CODE` for the Apache License, Version 2.0 applicable to designated code.
+
+## Third-Party Materials
+
+This repository may reference or use third-party software, libraries, documentation, datasets, images, trademarks, or other materials.
+
+Third-party materials remain subject to their respective licenses and terms.
+
+The presence of a third-party name, product, library, or trademark in this repository does not imply ownership or endorsement by Mihir Jha.
+
+Where a third-party license or notice is required to be reproduced, the applicable license or notice will be provided with the relevant material.
+
+## Apache License 2.0
+
+Certain code examples in this repository are licensed under the Apache License, Version 2.0.
+
+See:
+
+`LICENSE-CODE`
+
+The Apache License, Version 2.0 does not apply to the blog's original articles, text, diagrams, illustrations, or other editorial content unless explicitly stated otherwise.

@@ -1,0 +1,102 @@
+# Contributing to the Enterprise AI Engineering Blog
+
+Thank you for your interest in contributing to the **Enterprise AI Engineering Blog**.
+
+The goal of this project is to publish practical, production-oriented perspectives on software engineering, AI engineering, cloud architecture, backend systems, system design, and enterprise AI.
+
+Contributions that improve the technical accuracy, clarity, and usefulness of the blog are welcome.
+
+---
+
+## 1. What You Can Contribute
+
+We welcome contributions such as:
+
+* Technical corrections
+* Typographical and grammatical corrections
+* Broken-link fixes
+* Mermaid diagram fixes
+* Article improvements
+* Clarifications
+* Better technical examples
+* Additional references
+* Improvements to code examples
+* Updates for changed APIs, frameworks, or libraries
+* Improvements to architecture diagrams
+* Suggestions for useful topics
+* Technical perspectives and engineering insights
+
+For substantial changes or new articles, please open an Issue first so that the proposed direction can be discussed before significant work is done.
+
+---
+
+## 2. Types of Contributions
+
+### Articles and Documentation
+
+Contributions may include:
+
+* New technical articles
+* Improvements to existing articles
+* Clarifications and corrections
+* Architecture explanations
+* System-design discussions
+* Engineering lessons
+* Production-oriented examples
+* Improvements to diagrams and illustrations
+
+### Code
+
+Code contributions may include:
+
+* Bug fixes
+* Example improvements
+* Updated dependencies
+* Better error handling
+* Improved test coverage
+* Improvements to example implementations
+
+Code that is explicitly identified as Apache-2.0 licensed remains subject to the Apache License, Version 2.0.
+
+See:
+
+`LICENSE-CODE`
+
+---
+
+## 3. Before You Start
+
+Before making a contribution:
+
+1. Search existing Issues and Pull Requests.
+2. Check whether the topic or change has already been discussed.
+3. For substantial changes or new articles, open an Issue first.
+4. Explain the problem, idea, or improvement you are proposing.
+5. Keep contributions focused and technically justified.
+
+Small corrections can generally be submitted directly through a Pull Request.
+
+---
+
+## 4. Pull Request Process
+
+The preferred contribution workflow is:
+
+```text
+Fork
+  ↓
+Create a branch
+  ↓
+Make your changes
+  ↓
+Test your changes
+  ↓
+Commit
+  ↓
+Open Pull Request
+  ↓
+Review
+  ↓
+Changes requested / approved
+  ↓
+Merge

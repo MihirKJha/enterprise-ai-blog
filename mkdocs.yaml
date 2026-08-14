@@ -1,0 +1,152 @@
+site_name: Enterprise AI Engineering Blog
+
+site_description: >
+  Technical articles and deep dives on AI Engineering, Generative AI,
+  RAG, AI Agents, Cloud Architecture, Backend Engineering, and System Design.
+
+site_author: Mihir Jha
+
+site_url: https://enterpriseai.blog.mihirkjha.com/
+
+repo_url: https://github.com/MihirKJha/enterprise-ai-blog
+repo_name: MihirKJha/enterprise-ai-blog
+
+search:
+  boost: 1.2
+  
+hooks:
+  - hooks/normalize_headings.py
+
+edit_uri: edit/main/docs/
+
+copyright: Copyright © 2026 Mihir Jha
+
+theme:
+  name: material
+  language: en
+  features:
+   - content.action.edit
+   - navigation.path
+  logo: assets/logos/favicon.png
+  favicon: assets/logos/favicon.png
+  custom_dir: overrides
+
+  palette:
+
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  features:
+
+    # Navigation
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+
+    # Search
+    - search.highlight
+    - search.share
+    - search.suggest
+
+    # Content
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+
+    # Table of Contents
+    - toc.follow
+
+markdown_extensions:
+
+  # Core Markdown
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+
+  - toc:
+      permalink: true
+
+  # PyMdown Extensions
+
+  - pymdownx.details
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+  - pymdownx.inlinehilite
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - pymdownx.emoji
+
+  - pymdownx.keys
+
+  - pymdownx.mark
+
+  - pymdownx.caret
+
+  - pymdownx.tilde
+
+plugins:
+  - search
+  - social
+
+nav:
+  - Home: index.md
+  - About: about.md  
+   
+extra:
+
+  social:
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/MihirKJha
+
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/mihirkrjha/
+
+extra_css:
+  - stylesheets/typography.css
+  - stylesheets/layout.css
+  - stylesheets/code.css
+  - stylesheets/tables.css
+  - stylesheets/admonitions.css
+  - stylesheets/cards.css
+  - stylesheets/homepage.css
+  - stylesheets/custom.css
+  - stylesheets/extra.css
+  - stylesheets/navigation.css
+  - stylesheets/reader.css
+
+extra_javascript:
+  - https://unpkg.com/mermaid@11/dist/mermaid.min.js
+  - javascripts/mermaid.js
+  - javascripts/navigation.js

@@ -1,0 +1,110 @@
+/*
+---------------------------------------------------------
+Enterprise AI Engineering Handbook
+Code Blocks
+---------------------------------------------------------
+*/
+
+/* ==========================================
+   Code Block Container
+========================================== */
+
+.highlight {
+    border-radius: 12px;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* ==========================================
+   Code Block
+========================================== */
+
+.highlight pre {
+    padding: 1rem 1.2rem;
+    line-height: 1.6;
+    font-size: 0.82rem;
+}
+
+/* ==========================================
+   Inline Code
+========================================== */
+
+.md-typeset code:not(pre code) {
+    padding: .15rem .4rem;
+    border-radius: 4px;
+    font-size: .85em;
+    font-weight: 500;
+}
+
+/* ==========================================
+   Code Titles
+========================================== */
+
+.highlight span.filename {
+    display: block;
+    padding: .6rem 1rem;
+    font-size: .75rem;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+/* ==========================================
+   Line Numbers
+========================================== */
+
+.highlighttable td.linenos {
+    user-select: none;
+    opacity: .5;
+}
+
+/* ==========================================
+   Copy Button
+========================================== */
+
+.md-clipboard {
+    opacity: .7;
+    transition: opacity .2s ease;
+}
+
+.md-clipboard:hover {
+    opacity: 1;
+}
+
+/* ==========================================
+   Scrollbars
+========================================== */
+
+.highlight pre::-webkit-scrollbar {
+    height: 8px;
+}
+
+.highlight pre::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+}
+
+/* ==========================================
+   Better Spacing
+========================================== */
+
+.md-typeset pre {
+    margin: 1.5rem 0;
+}
+
+/* ==========================================
+   Keyboard Keys
+========================================== */
+
+.md-typeset kbd {
+    border-radius: 6px;
+    font-size: .75rem;
+    padding: .15rem .45rem;
+}
+
+/* ==========================================
+   Terminal Blocks
+========================================== */
+
+.language-bash,
+.language-shell {
+    font-size: .82rem;
+}

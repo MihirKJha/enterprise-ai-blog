@@ -1,0 +1,86 @@
+/*
+---------------------------------------------------------
+Enterprise AI Engineering Handbook
+Tables
+---------------------------------------------------------
+*/
+
+/* ==========================================
+   Table Container
+========================================== */
+
+.md-typeset table:not([class]) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    border-radius: 12px;
+    font-size: 0.9rem;
+}
+
+/* ==========================================
+   Header
+========================================== */
+
+.md-typeset table:not([class]) thead {
+    background: var(--md-primary-fg-color);
+}
+
+.md-typeset table:not([class]) thead th {
+    color: white;
+    font-weight: 600;
+    padding: .9rem 1rem;
+    text-align: left;
+}
+
+/* ==========================================
+   Cells
+========================================== */
+
+.md-typeset table:not([class]) td {
+    padding: .85rem 1rem;
+    vertical-align: top;
+}
+
+/* ==========================================
+   Zebra Rows
+========================================== */
+
+.md-typeset table:not([class]) tbody tr:nth-child(even) {
+    background: rgba(0, 0, 0, 0.03);
+}
+
+/* Dark mode */
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tbody tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+/* ==========================================
+   Hover Effect
+========================================== */
+
+.md-typeset table:not([class]) tbody tr:hover {
+    background: rgba(25, 118, 210, 0.08);
+}
+
+/* ==========================================
+   Borders
+========================================== */
+
+.md-typeset table:not([class]) td,
+.md-typeset table:not([class]) th {
+    border: 1px solid rgba(0, 0, 0, .08);
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) td,
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
+    border-color: rgba(255,255,255,.08);
+}
+
+/* ==========================================
+   Responsive Tables
+========================================== */
+
+.md-typeset__scrollwrap {
+    margin: 1.5rem 0;
+}

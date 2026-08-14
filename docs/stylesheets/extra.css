@@ -1,0 +1,146 @@
+/* =========================================================
+   SIDEBAR NAVIGATION — 3 LEVEL VISUAL HIERARCHY
+   ========================================================= */
+
+
+/* =========================================================
+   LEVEL 1 — PART
+   Example:
+   Part I - Machine Learning
+   ========================================================= */
+
+.md-sidebar--primary
+.md-nav--primary
+> .md-nav__list
+> .md-nav__item
+> .md-nav__link {
+
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.35;
+
+  color: #0d47a1;
+
+  padding: 0.45rem 0.35rem;
+
+  border-left: 3px solid #1976d2;
+}
+
+
+/* Part hover */
+
+.md-sidebar--primary
+.md-nav--primary
+> .md-nav__list
+> .md-nav__item
+> .md-nav__link:hover {
+
+  color: #0b3c91;
+}
+
+
+/* =========================================================
+   LEVEL 2 — SECTION
+   Example:
+   Machine Learning Fundamentals
+   Regression
+   Classification
+   ========================================================= */
+
+.md-sidebar--primary
+.md-nav--primary
+.md-nav__list
+.md-nav__item
+.md-nav__item
+> .md-nav__link {
+
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.4;
+
+  color: #1976d2;
+
+  padding: 0.35rem 0.45rem;
+
+  border-radius: 0.25rem;
+}
+
+
+/* Section hover */
+
+.md-sidebar--primary
+.md-nav--primary
+.md-nav__list
+.md-nav__item
+.md-nav__item
+> .md-nav__link:hover {
+
+  color: #0d47a1;
+
+  background-color: rgba(25, 118, 210, 0.07);
+}
+
+
+/* =========================================================
+   LEVEL 3 — CHAPTER
+   Example:
+   01-Introduction to Machine Learning
+   02-Machine Learning Fundamentals
+   ========================================================= */
+
+.md-sidebar--primary
+.md-nav--primary
+.md-nav__list
+.md-nav__item
+.md-nav__item
+.md-nav__list
+.md-nav__item
+> .md-nav__link {
+
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.4;
+
+  color: #4b5563;
+
+  padding: 0.28rem 0.45rem 0.28rem 0.9rem;
+
+  margin: 0.05rem 0;
+
+  border-radius: 0.25rem;
+}
+
+
+/* Chapter hover */
+
+.md-sidebar--primary
+.md-nav--primary
+.md-nav__list
+.md-nav__item
+.md-nav__item
+.md-nav__list
+.md-nav__item
+> .md-nav__link:hover {
+
+  color: #1565c0;
+
+  background-color: rgba(21, 101, 192, 0.06);
+}
+
+
+/* =========================================================
+   ACTIVE CHAPTER
+   ========================================================= */
+
+.md-sidebar--primary
+.md-nav--primary
+.md-nav__link--active {
+
+  color: #0d47a1 !important;
+
+  font-weight: 600;
+
+  background-color: rgba(25, 118, 210, 0.10);
+
+  border-left: 2px solid #1976d2;
+}

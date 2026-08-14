@@ -1,0 +1,137 @@
+/*
+---------------------------------------------------------
+Enterprise AI Engineering Handbook
+Custom Styles
+---------------------------------------------------------
+
+Purpose:
+- Project-specific styling
+- Experimental components
+- Future enhancements
+
+This file should remain relatively small.
+---------------------------------------------------------
+*/
+
+/* ==========================================
+   Section Anchors
+========================================== */
+
+.section-anchor {
+    scroll-margin-top: 5rem;
+}
+
+/* ==========================================
+   Center Content
+========================================== */
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/* ==========================================
+   Small Text
+========================================== */
+
+.small-text {
+    font-size: .85rem;
+    color: var(--md-default-fg-color--light);
+}
+
+/* ==========================================
+   Highlight Box
+========================================== */
+
+.highlight-box {
+
+    padding: 1rem;
+
+    margin: 1.5rem 0;
+
+    border-left: 5px solid var(--md-primary-fg-color);
+
+    border-radius: 10px;
+
+    background: rgba(25,118,210,.06);
+
+}
+
+/* ==========================================
+   Architecture Diagram Container
+========================================== */
+
+.architecture {
+
+    margin: 2rem auto;
+
+    text-align: center;
+
+}
+
+/* ==========================================
+   Timeline Placeholder
+========================================== */
+
+.timeline {
+
+    margin: 2rem 0;
+
+}
+
+/* ==========================================
+   Interview Question Block
+========================================== */
+
+.interview-question {
+
+    border-left: 5px solid #ff9800;
+
+    padding: 1rem;
+
+    margin: 2rem 0;
+
+    border-radius: 8px;
+
+}
+
+/* ==========================================
+   Production Tip
+========================================== */
+
+.production-tip {
+
+    border-left: 5px solid #4caf50;
+
+    padding: 1rem;
+
+    margin: 2rem 0;
+
+    border-radius: 8px;
+
+}
+
+/* ==========================================
+   TODO / Coming Soon
+========================================== */
+
+.coming-soon {
+
+    text-align: center;
+
+    font-size: 1rem;
+
+    font-style: italic;
+
+    color: var(--md-default-fg-color--light);
+
+    margin: 3rem 0;
+
+}

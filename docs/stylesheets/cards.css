@@ -1,0 +1,95 @@
+/*
+---------------------------------------------------------
+Enterprise AI Engineering Handbook
+Cards
+---------------------------------------------------------
+*/
+
+/* ==========================================
+   Material Grid Cards
+========================================== */
+
+.grid.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+/* ==========================================
+   Individual Card
+========================================== */
+
+.grid.cards > * {
+
+    background: var(--md-default-bg-color);
+
+    border: 1px solid rgba(127,127,127,.15);
+
+    border-radius: 14px;
+
+    padding: 1.25rem;
+
+    transition: all .25s ease;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+
+}
+
+/* ==========================================
+   Hover
+========================================== */
+
+.grid.cards > *:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 10px 24px rgba(0,0,0,.15);
+
+    border-color: var(--md-primary-fg-color);
+
+}
+
+/* ==========================================
+   Card Headings
+========================================== */
+
+.grid.cards h2,
+.grid.cards h3,
+.grid.cards h4 {
+
+    margin-top: 0;
+
+    border-bottom: none;
+
+}
+
+/* ==========================================
+   Card Paragraphs
+========================================== */
+
+.grid.cards p {
+
+    margin-bottom: .75rem;
+
+}
+
+/* ==========================================
+   Links
+========================================== */
+
+.grid.cards a {
+
+    text-decoration: none;
+
+}
+
+/* ==========================================
+   Dark Theme
+========================================== */
+
+[data-md-color-scheme="slate"] .grid.cards > * {
+
+    border-color: rgba(255,255,255,.08);
+
+}

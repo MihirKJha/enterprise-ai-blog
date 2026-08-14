@@ -1,0 +1,464 @@
+/* ============================================================
+   ENTERPRISE AI ENGINEERING HANDBOOK
+   navigation.css
+
+   Responsibilities:
+   1. Compact top navigation tabs
+   2. Full names in left navigation
+   3. Desktop sidebar collapse / expand
+   4. Responsive behavior
+   ============================================================ */
+
+
+/* ============================================================
+   1. COMPACT TOP NAVIGATION
+   ------------------------------------------------------------
+   Actual nav labels remain unchanged in mkdocs.yml.
+
+   Top navigation displays:
+   Home | Part I | Part II | Part III | ... | Part XII
+
+   Left sidebar continues to display the complete names.
+   ============================================================ */
+
+
+/* Home */
+
+.md-tabs__item:nth-child(1) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(1) .md-tabs__link::after {
+    content: "Home";
+    font-size: 0.75rem;
+}
+
+
+/* Part I */
+
+.md-tabs__item:nth-child(2) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(2) .md-tabs__link::after {
+    content: "Part I";
+    font-size: 0.75rem;
+}
+
+
+/* Part II */
+
+.md-tabs__item:nth-child(3) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(3) .md-tabs__link::after {
+    content: "Part II";
+    font-size: 0.75rem;
+}
+
+
+/* Part III */
+
+.md-tabs__item:nth-child(4) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(4) .md-tabs__link::after {
+    content: "Part III";
+    font-size: 0.75rem;
+}
+
+
+/* Part IV */
+
+.md-tabs__item:nth-child(5) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(5) .md-tabs__link::after {
+    content: "Part IV";
+    font-size: 0.75rem;
+}
+
+
+/* Part V */
+
+.md-tabs__item:nth-child(6) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(6) .md-tabs__link::after {
+    content: "Part V";
+    font-size: 0.75rem;
+}
+
+
+/* Part VI */
+
+.md-tabs__item:nth-child(7) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(7) .md-tabs__link::after {
+    content: "Part VI";
+    font-size: 0.75rem;
+}
+
+
+/* Part VII */
+
+.md-tabs__item:nth-child(8) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(8) .md-tabs__link::after {
+    content: "Part VII";
+    font-size: 0.75rem;
+}
+
+
+/* Part VIII */
+
+.md-tabs__item:nth-child(9) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(9) .md-tabs__link::after {
+    content: "Part VIII";
+    font-size: 0.75rem;
+}
+
+
+/* Part IX */
+
+.md-tabs__item:nth-child(10) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(10) .md-tabs__link::after {
+    content: "Part IX";
+    font-size: 0.75rem;
+}
+
+
+/* Part X */
+
+.md-tabs__item:nth-child(11) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(11) .md-tabs__link::after {
+    content: "Part X";
+    font-size: 0.75rem;
+}
+
+
+/* Part XI */
+
+.md-tabs__item:nth-child(12) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(12) .md-tabs__link::after {
+    content: "Part XI";
+    font-size: 0.75rem;
+}
+
+
+/* Part XII */
+
+.md-tabs__item:nth-child(13) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(13) .md-tabs__link::after {
+    content: "Part XII";
+    font-size: 0.75rem;
+}
+
+/* Legal */
+
+.md-tabs__item:nth-child(14) .md-tabs__link {
+    font-size: 0;
+}
+
+.md-tabs__item:nth-child(14) .md-tabs__link::after {
+    content: "Legal";
+    font-size: 0.75rem;
+}
+
+
+/* ------------------------------------------------------------
+   Keep tabs on one horizontal line
+   ------------------------------------------------------------ */
+
+.md-tabs__list {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.md-tabs__item {
+    flex-shrink: 0;
+}
+
+
+/* Compact horizontal spacing */
+
+.md-tabs__link {
+    padding-left: 0.55rem;
+    padding-right: 0.55rem;
+}
+
+
+/* ============================================================
+   2. SIDEBAR
+   ------------------------------------------------------------
+   IMPORTANT:
+   We do NOT change the text in the sidebar.
+
+   MkDocs continues using the complete labels from nav:.
+
+   Example:
+
+   Part I - Machine Learning
+   Part II - Deep Learning
+   Part III - Foundation Models, Large Language Models &
+   Generative AI
+   ============================================================ */
+
+
+/* ============================================================
+   3. DESKTOP SIDEBAR COLLAPSE
+   ============================================================ */
+
+@media screen and (min-width: 60em) {
+
+
+    /* --------------------------------------------------------
+       NORMAL / EXPANDED STATE
+
+       Sidebar | Content | TOC
+       -------------------------------------------------------- */
+
+    body:not(.sidebar-collapsed) .md-main__inner {
+
+        grid-template-columns:
+            minmax(0, 12.1rem)
+            minmax(0, 1fr)
+            minmax(0, 12.1rem);
+
+    }
+
+
+    /* --------------------------------------------------------
+       COLLAPSED STATE
+
+       Content | TOC
+
+       Primary sidebar is completely removed.
+       -------------------------------------------------------- */
+
+    body.sidebar-collapsed .md-sidebar--primary {
+
+        display: none !important;
+
+        width: 0 !important;
+        min-width: 0 !important;
+        max-width: 0 !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        visibility: hidden !important;
+
+    }
+
+
+    /* --------------------------------------------------------
+       Rebuild Material's main grid
+
+       Before:
+
+       Sidebar | Content | TOC
+
+       After:
+
+       Content | TOC
+       -------------------------------------------------------- */
+
+    body.sidebar-collapsed .md-main__inner {
+
+        display: grid !important;
+
+        grid-template-columns:
+            minmax(0, 1fr)
+            minmax(0, 12.1rem) !important;
+
+        column-gap: 2rem;
+
+    }
+
+
+    /* --------------------------------------------------------
+       CONTENT → FIRST COLUMN
+       -------------------------------------------------------- */
+
+    body.sidebar-collapsed .md-content {
+
+        grid-column: 1 !important;
+        grid-row: 1 !important;
+
+        width: 100% !important;
+        max-width: none !important;
+
+    }
+
+
+    body.sidebar-collapsed .md-content__inner {
+
+        max-width: none !important;
+
+    }
+
+
+    /* --------------------------------------------------------
+       TABLE OF CONTENTS → SECOND COLUMN
+       -------------------------------------------------------- */
+
+    body.sidebar-collapsed .md-sidebar--secondary {
+
+        display: block !important;
+
+        grid-column: 2 !important;
+        grid-row: 1 !important;
+
+        width: 100% !important;
+
+    }
+    
+
+/* ============================================================
+   SIDEBAR TOGGLE
+   ============================================================ */
+
+.sidebar-toggle {
+    position: fixed !important;
+
+    top: 50% !important;
+
+    right: auto !important;
+    bottom: auto !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    transform: translateY(-50%) !important;
+
+    z-index: 9999 !important;
+
+    width: 38px !important;
+    min-width: 38px !important;
+    max-width: 38px !important;
+
+    height: 58px !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    box-sizing: border-box !important;
+
+    border: 1px solid #d8dee4 !important;
+    border-left: none !important;
+
+    border-radius: 0 8px 8px 0 !important;
+
+    background: #ffffff !important;
+
+    color: #57606a !important;
+
+    cursor: pointer !important;
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.08) !important;
+
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        box-shadow 0.2s ease !important;
+}
+
+
+/* ============================================================
+   ICON
+   ============================================================ */
+
+.sidebar-toggle__icon {
+    font-size: 22px !important;
+    line-height: 1 !important;
+}
+
+
+/* ============================================================
+   HOVER
+   ============================================================ */
+
+.sidebar-toggle:hover {
+    background: #f0f6fc !important;
+    color: #0969da !important;
+
+    box-shadow:
+        0 3px 10px rgba(0, 0, 0, 0.14) !important;
+}
+
+
+/* ============================================================
+   DARK MODE
+   ============================================================ */
+
+[data-md-color-scheme="slate"]
+.sidebar-toggle {
+    background: #21262d !important;
+    color: #c9d1d9 !important;
+    border-color: #30363d !important;
+}
+
+[data-md-color-scheme="slate"]
+.sidebar-toggle:hover {
+    background: #30363d !important;
+    color: #58a6ff !important;
+}
+
+
+/* ============================================================
+   MOBILE / TABLET
+   ============================================================ */
+
+@media screen and (max-width: 59.9375em) {
+
+    .sidebar-toggle {
+        display: none !important;
+    }
+
+}
+
+
+/* ============================================================
+   5. CONTENT WIDTH
+   ------------------------------------------------------------
+   Give the handbook a professional maximum reading width
+   without unnecessarily restricting the collapsed layout.
+   ============================================================ */
+
+@media screen and (min-width: 76.25em) {
+
+    .md-grid {
+
+        max-width: 1600px;
+
+    }
+
+}

@@ -1,0 +1,131 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+
+  <!-- =========================================================
+       WebSite Structured Data
+       ========================================================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://enterpriseai.handbook.mihirkjha.com/#website",
+    "name": "Enterprise AI Engineering Blog",
+    "url": {{ config.site_url | tojson }},
+    "description": {{ config.site_description | tojson }},
+    "publisher": {
+      "@id": "https://mihirkjha.com/#person"
+    }
+  }
+  </script>
+
+
+  <!-- =========================================================
+       Person Structured Data
+       ========================================================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://mihirkjha.com/#person",
+    "name": "Mihir Jha",
+    "url": "https://mihirkjha.com/",
+    "sameAs": [
+      "https://github.com/MihirKJha",
+      "https://www.linkedin.com/in/mihirkrjha/"
+    ],
+    "knowsAbout": [
+      "Enterprise AI Engineering",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "Large Language Models",
+      "Generative AI",
+      "Retrieval-Augmented Generation",
+      "AI Agents",
+      "Agentic AI",
+      "Cloud AI",
+      "MLOps",
+      "LLMOps",
+      "Backend Engineering",
+      "Cloud Architecture"
+    ]
+  }
+  </script>
+
+
+  <!-- =========================================================
+       BreadcrumbList Structured Data
+       ========================================================= -->
+  {% if page %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": {{ config.site_url | tojson }}
+      }
+
+      {% for ancestor in page.ancestors | reverse %}
+        {% set ancestor_url = ancestor.url %}
+
+        {% if (not ancestor_url or ancestor_url == "/") and ancestor.children %}
+          {% set ancestor_url = ancestor.children[0].url %}
+        {% endif %}
+
+      ,{
+        "@type": "ListItem",
+        "position": {{ loop.index + 1 }},
+        "name": {{ ancestor.title | tojson }}
+        {% if ancestor_url and ancestor_url != "/" %}
+        ,"item": {{ ancestor_url | url | tojson }}
+        {% endif %}
+      }
+      {% endfor %}
+
+      ,{
+        "@type": "ListItem",
+        "position": {{ page.ancestors | length + 2 }},
+        "name": {{ page.title | tojson }}
+      }
+    ]
+  }
+  </script>
+  {% endif %}
+
+
+  <!-- =========================================================
+       TechArticle Structured Data
+       ========================================================= -->
+  {% if page %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": {{ (config.site_url ~ page.url) | tojson }},
+    "headline": {{ page.title | tojson }},
+    "description": {{ (page.meta.description or config.site_description) | tojson }},
+    "url": {{ (config.site_url ~ page.url) | tojson }},
+    "author": {
+      "@id": "https://mihirkjha.com/#person"
+    },
+    "publisher": {
+      "@id": "https://enterpriseai.handbook.mihirkjha.com/#website"
+    },
+    "isPartOf": {
+      "@id": "https://enterpriseai.handbook.mihirkjha.com/#website"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": {{ (config.site_url ~ page.url) | tojson }}
+    }
+  }
+  </script>
+  {% endif %}
+
+{% endblock %}

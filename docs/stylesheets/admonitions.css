@@ -1,0 +1,72 @@
+/*
+---------------------------------------------------------
+Enterprise AI Engineering Handbook
+Admonitions
+---------------------------------------------------------
+*/
+
+/* ==========================================
+   Base Admonition
+========================================== */
+
+.md-typeset .admonition,
+.md-typeset details {
+    border-radius: 12px;
+    border: none;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .08);
+}
+
+/* ==========================================
+   Title
+========================================== */
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+    font-weight: 600;
+    padding: .9rem 1rem;
+}
+
+/* ==========================================
+   Content
+========================================== */
+
+.md-typeset .admonition > *:last-child,
+.md-typeset details > *:last-child {
+    padding-bottom: 1rem;
+}
+
+.md-typeset .admonition p,
+.md-typeset details p {
+    margin: .8rem 1rem;
+}
+
+/* ==========================================
+   Lists
+========================================== */
+
+.md-typeset .admonition ul,
+.md-typeset .admonition ol,
+.md-typeset details ul,
+.md-typeset details ol {
+    margin-left: 1.5rem;
+}
+
+/* ==========================================
+   Icons
+========================================== */
+
+.md-typeset .admonition-title::before,
+.md-typeset summary::before {
+    margin-right: .6rem;
+}
+
+/* ==========================================
+   Hover Effect
+========================================== */
+
+.md-typeset .admonition:hover,
+.md-typeset details:hover {
+    transition: .2s ease-in-out;
+    transform: translateY(-2px);
+}
