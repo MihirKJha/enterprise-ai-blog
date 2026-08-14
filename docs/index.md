@@ -7,6 +7,11 @@ description: >
 
 # Enterprise AI Engineering Blog
 
+<p align="center">
+  <img src="assets/banners/enterprise-ai-blog-banner.png"
+       alt="Enterprise AI Engineering Blog">
+</p>
+
 > Practical perspectives on building scalable software, cloud-native systems, and production-grade AI.
 
 Welcome to my engineering blog.
