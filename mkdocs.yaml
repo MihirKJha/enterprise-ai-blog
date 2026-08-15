@@ -135,6 +135,12 @@ nav:
       - AI Engineering:
           - Building Intelligent Systems: articles/ai-engineering/building-intelligent-systems.md
           - Preparing Data for Production AI: articles/ai-engineering/preparing-data-for-production-ai.md
+          - Choosing the Right Machine Learning Algorithms: articles/ai-engineering/choosing-the-right-machine-learning-algorithms.md
+          - Why AI Projects Fail in Production: articles/ai-engineering/why-ai-projects-fail-in-production.md
+          - Deep Learning — The Foundation of Modern AI: articles/ai-engineering/deep-learning-the-foundation-of-modern-ai.md
+          - LLM — Inside the Engine of Generative AI: articles/ai-engineering/large-language-models-inside-the-engine-of-generative-ai.md
+          - LLM — From Foundation Models to AI Applications: articles/ai-engineering/large-language-models-from-foundation-models-to-ai-applications.md
+          - LLM — Adapting Foundation Models for Enterprise AI: articles/ai-engineering/large-language-models-adapting-foundation-models-for-enterprise-ai.md
    
 extra:
 

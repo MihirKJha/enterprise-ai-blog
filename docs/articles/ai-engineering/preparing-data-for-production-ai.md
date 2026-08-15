@@ -853,6 +853,16 @@ Recommended reading:
 
 # 🔗 Let's Connect
 
+If you're exploring:
+
+- AI Engineering
+- Cloud AI Architecture
+- MLOps
+- Distributed ML Systems
+- RAG & Agentic AI
+- Scalable Backend Architecture
+- AI System Design
+
 ### 💼 LinkedIn
 
 https://www.linkedin.com/in/mihirkrjha/
