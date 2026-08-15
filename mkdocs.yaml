@@ -13,7 +13,7 @@ repo_name: MihirKJha/enterprise-ai-blog
 
 search:
   boost: 1.2
-  
+
 hooks:
   - hooks/normalize_headings.py
 
@@ -24,36 +24,19 @@ copyright: Copyright © 2026 Mihir Jha
 theme:
   name: material
   language: en
-  features:
-   - content.action.edit
-   - navigation.path
+
   logo: assets/logos/favicon.png
   favicon: assets/logos/favicon.png
+
   custom_dir: overrides
 
-  palette:
-
-    - scheme: default
-      primary: blue
-      accent: indigo
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-
-    - scheme: slate
-      primary: blue
-      accent: indigo
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-
   features:
-
     # Navigation
+    - content.action.edit
+    - navigation.path
     - navigation.instant
     - navigation.tracking
     - navigation.indexes
-    - navigation.path
     - navigation.top
     - navigation.footer
 
@@ -71,6 +54,22 @@ theme:
     # Table of Contents
     - toc.follow
 
+  palette:
+
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
 markdown_extensions:
 
   # Core Markdown
@@ -85,7 +84,6 @@ markdown_extensions:
       permalink: true
 
   # PyMdown Extensions
-
   - pymdownx.details
 
   - pymdownx.superfences:
@@ -118,9 +116,10 @@ plugins:
   - search
   - social
   - mermaid2
+
   - git-revision-date-localized:
-     enable_creation_date: true
-     type: timeago
+      enable_creation_date: true
+      type: timeago
 
   - minify:
       minify_html: true
@@ -132,7 +131,9 @@ nav:
   - About: about.md
 
   - Articles:
-      - AI for Backend Engineers: articles/ai-for-backend-engineers/index.md
+
+      - AI for Backend Engineers:
+          - AI for Backend Engineers: articles/ai-for-backend-engineers/index.md
           - Building Intelligent Systems: articles/ai-for-backend-engineers/building-intelligent-systems.md
           - Preparing Data for Production AI: articles/ai-for-backend-engineers/preparing-data-for-production-ai.md
           - Choosing the Right Machine Learning Algorithms: articles/ai-for-backend-engineers/choosing-the-right-machine-learning-algorithms.md
@@ -141,15 +142,13 @@ nav:
           - Large Language Models — Inside the Engine of Generative AI: articles/ai-for-backend-engineers/large-language-models-inside-the-engine-of-generative-ai.md
           - Large Language Models — From Foundation Models to AI Applications: articles/ai-for-backend-engineers/large-language-models-from-foundation-models-to-ai-applications.md
           - Large Language Models — Adapting Foundation Models for Enterprise AI: articles/ai-for-backend-engineers/large-language-models-adapting-foundation-models-for-enterprise-ai.md
-      
+
       - Inside Modern AI Systems: articles/inside-modern-ai-systems/index.md
-      
+
       - Enterprise AI Engineering: articles/enterprise-ai-engineering/index.md
-   
+
 extra:
-
   social:
-
     - icon: fontawesome/brands/github
       link: https://github.com/MihirKJha
 
