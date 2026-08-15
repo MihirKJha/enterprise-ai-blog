@@ -133,7 +133,7 @@ nav:
   - Articles:
 
       - AI for Backend Engineers:
-          - AI for Backend Engineers: articles/ai-for-backend-engineers/index.md
+          - Overview: articles/ai-for-backend-engineers/index.md
           - Building Intelligent Systems: articles/ai-for-backend-engineers/building-intelligent-systems.md
           - Preparing Data for Production AI: articles/ai-for-backend-engineers/preparing-data-for-production-ai.md
           - Choosing the Right Machine Learning Algorithms: articles/ai-for-backend-engineers/choosing-the-right-machine-learning-algorithms.md
@@ -143,9 +143,11 @@ nav:
           - Large Language Models — From Foundation Models to AI Applications: articles/ai-for-backend-engineers/large-language-models-from-foundation-models-to-ai-applications.md
           - Large Language Models — Adapting Foundation Models for Enterprise AI: articles/ai-for-backend-engineers/large-language-models-adapting-foundation-models-for-enterprise-ai.md
 
-      - Inside Modern AI Systems: articles/inside-modern-ai-systems/index.md
+      - Inside Modern AI Systems:
+          - Overview: articles/inside-modern-ai-systems/index.md
 
-      - Enterprise AI Engineering: articles/enterprise-ai-engineering/index.md
+      - Enterprise AI Engineering:
+          - Overview: articles/enterprise-ai-engineering/index.md
 
 extra:
   social:
