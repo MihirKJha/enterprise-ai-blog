@@ -6,23 +6,19 @@ description: >
   optimization, and evaluation.
 ---
 
-<p align="center">
-  <img src="../../assets/banners/inside-modern-ai-systems-banner.png"
-       alt="Inside Modern AI Systems"
-       width="100%">
-</p>
-
-<div align="center">
+---
 
 # 🧠 Inside Modern AI Systems
+
+![Inside Modern AI Systems](../../assets/banners/inside-modern-ai-systems-banner.png)
+
+>  A hands-on technical series focused on understanding **how modern AI systems work internally** by building and experimenting with their core components using **PyTorch** and **TensorFlow/Keras**.
 
 ### **Building AI Components from Scratch with PyTorch & TensorFlow**
 
 **Status: 🚧 Series in Progress**
 
-A hands-on technical series focused on understanding **how modern AI systems work internally** by building and experimenting with their core components using **PyTorch** and **TensorFlow/Keras**.
-
-</div>
+---
 
 ---
 

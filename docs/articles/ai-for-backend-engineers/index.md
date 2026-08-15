@@ -6,25 +6,21 @@ description: >
   Engineering, and production AI systems.
 ---
 
-<p align="center">
-  <img src="../../assets/banners/ai-for-backend-engineers-banner.png"
-       alt="AI for Backend Engineers"
-       width="100%">
-</p>
-
-<div align="center">
+---
 
 # 🚀 AI for Backend Engineers
+
+![AI for Backend Engineers](../../assets/banners/ai-for-backend-engineers-banner.png)
+
+> A practical learning journey for backend engineers who want to understand
+how modern AI systems are built, integrated, and operated in real-world
+engineering environments.
 
 ### **Bridging Software Engineering, Cloud Architecture & Modern AI**
 
 **Status: 🚧 Series in Progress**
 
-A practical learning journey for backend engineers who want to understand
-how modern AI systems are built, integrated, and operated in real-world
-engineering environments.
-
-</div>
+---
 
 ---
 

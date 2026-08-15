@@ -5,25 +5,21 @@ description: >
   secure, operate, and scale enterprise-grade AI platforms and intelligent systems.
 ---
 
-<p align="center">
-  <img src="../../assets/banners/enterprise-ai-engineering-banner.png"
-       alt="Enterprise AI Engineering"
-       width="100%">
-</p>
-
-<div align="center">
+---
 
 # 🏢 Enterprise AI Engineering
+
+![Enterprise AI Engineering](../../assets/banners/enterprise-ai-engineering-banner.png)
+
+>A long-term architecture journey focused on the engineering principles,
+system design patterns, infrastructure, and operational practices required
+to build **enterprise-grade AI platforms and intelligent systems**.
 
 ### **Designing, Building & Operating Production-Grade AI Systems**
 
 **Status: 🚧 Series in Progress**
 
-A long-term architecture journey focused on the engineering principles,
-system design patterns, infrastructure, and operational practices required
-to build **enterprise-grade AI platforms and intelligent systems**.
-
-</div>
+---
 
 ---
 
