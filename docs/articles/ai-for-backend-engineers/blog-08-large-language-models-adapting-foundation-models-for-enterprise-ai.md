@@ -1544,6 +1544,24 @@ Production Enterprise AI
 
 ---
 
+# 📚 Related Topics in the Enterprise AI Engineering Handbook
+
+This article provides the engineering perspective from the [Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/).
+
+For structured technical reference material, explore:
+
+- [LLM Data Preparation](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/llm-training-fine-tuning/01-llm-data-preparation/)
+- [Hugging Face Training Workflow](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/llm-training-fine-tuning/02-hugging-face-training-workflow/)
+- [Transformer Fine-Tuning Fundamentals](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/llm-training-fine-tuning/03-transformer-fine-tuning-fundamentals/)
+- [Supervised Fine-Tuning (SFT)](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/llm-training-fine-tuning/04-supervised-fine-tuning-sft/)
+- [Parameter-Efficient Fine-Tuning](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/llm-training-fine-tuning/05-parameter-efficient-fine-tuning/)
+- [LoRA & QLoRA](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/llm-training-fine-tuning/06-lora-qlora/)
+- [Model Quantization](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/llm-training-fine-tuning/07-model-quantization/)
+- [Instruction Tuning](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/llm-alignment-preference-optimization/01-instruction-tuning/)
+- [Reinforcement Learning from Human Feedback](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/llm-alignment-preference-optimization/04-reinforcement-learning-from-human-feedback/)
+- [Direct Preference Optimization (DPO)](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/llm-alignment-preference-optimization/06-direct-preference-optimization-dpo/)
+
+---
 # 🔗 Connect
 
 If you're exploring:
@@ -1575,6 +1593,16 @@ Let's connect and learn together.
 *Software Architect | AI Engineering | Cloud Architecture | Backend Engineering*
 
 I focus on bridging traditional software and cloud engineering with modern AI engineering to design scalable, secure, observable, and production-ready intelligent systems.
+
+---
+
+# 📌 Key Message
+
+> **Not every enterprise AI problem requires fine-tuning — choose the lightest adaptation strategy that solves the requirement.**
+
+Engineering Perspective:
+
+> **Use prompting for instructions, fine-tuning for stable behavior, and retrieval when enterprise knowledge changes frequently.**
 
 ---
 

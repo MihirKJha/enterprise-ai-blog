@@ -847,9 +847,9 @@ will be well positioned to build the next generation of intelligent systems.
 
 # 📚 Related Topics in the Enterprise AI Engineering Handbook
 
-This article complements the structured chapters in the **Enterprise AI Engineering Handbook**.
+This article provides the engineering perspective from [Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/).
 
-Recommended reading:
+For structured technical reference material, explore:
 
 - [Introduction to Machine Learning](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/01-introduction-to-machine-learning/)
 - [Machine Learning Fundamentals](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/02-machine-learning-fundamentals/)
@@ -884,6 +884,8 @@ Let's connect and learn together.
 ## 📌 Key Message
 
 > **Great models need great data.**
+
+Engineering Perspective:
 
 > **Build the data foundation before chasing the next model upgrade.**
 

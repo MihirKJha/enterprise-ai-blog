@@ -851,6 +851,25 @@ Future articles will continue exploring how modern AI capabilities can be integr
 
 ---
 
+# 📚 Related Topics in the Enterprise AI Engineering Handbook
+
+This article provides the engineering perspective from the [Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/).
+
+For structured technical reference material, explore:
+
+- [Regression Fundamentals](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/regression/01-regression-fundamentals/)
+- [Linear Regression](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/regression/02-linear-regression/)
+- [Logistic Regression](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/regression/04-logistic-regression/)
+- [Classification Fundamentals](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/classification/01-classification-fundamentals/)
+- [Decision Trees](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/classification/02-decision-trees/)
+- [Ensemble Learning](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/classification/09-ensemble-learning/)
+- [Unsupervised Learning Fundamentals](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/unsupervised-learning/01-unsupervised-learning-fundamentals/)
+- [K-Means Clustering](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/unsupervised-learning/03-k-means-clustering/)
+- [Principal Component Analysis (PCA)](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/unsupervised-learning/07-principal-component-analysis-pca/)
+- [Building Production Classification Systems](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/classification/10-building-production-classification-systems/)
+
+---
+
 # 🔗 Let's Connect
 
 If you're exploring:
@@ -879,6 +898,16 @@ Let's connect and learn together.
 *Software Architect | AI Engineering | Cloud Architecture | Backend Engineering*
 
 I focus on bridging traditional software and cloud engineering with modern AI engineering to design scalable, secure, observable, and production-ready intelligent systems.
+
+---
+
+# 📌 Key Message
+
+> **The best machine learning algorithm is the one that fits the problem, data, and system constraints.**
+
+Engineering Perspective:
+
+> **Choose algorithms based on business requirements, data characteristics, scalability, explainability, and production constraints — not popularity alone.**
 
 ---
 

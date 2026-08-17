@@ -863,6 +863,25 @@ Upcoming articles and deep dives will continue connecting these technologies ste
 
 ---
 
+# 📚 Related Topics in the Enterprise AI Engineering Handbook
+
+This article provides the engineering perspective from the [Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/).
+
+For structured technical reference material, explore:
+
+- [Model Evaluation Fundamentals](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/model-evaluation-generalization/01-model-evaluation-fundamentals/)
+- [Classification Evaluation Metrics](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/model-evaluation-generalization/02-classification-evaluation-metrics/)
+- [Cross-Validation and Model Validation](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/model-evaluation-generalization/05-cross-validation-and-model-validation/)
+- [Regularization Techniques](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/model-evaluation-generalization/06-regularization-techniques/)
+- [Data Leakage and Modeling Pitfalls](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/model-evaluation-generalization/07-data-leakage-and-modeling-pitfalls/)
+- [Bias-Variance Tradeoff](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/classification/08-bias-variance-tradeoff/)
+- [Building Production Classification Systems](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/classification/10-building-production-classification-systems/)
+- [Machine Learning Lifecycle](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/03-machine-learning-lifecycle/)
+- [Machine Learning in Practice](https://enterpriseai.handbook.mihirkjha.com/01-machine-learning/04-machine-learning-in-practice/)
+
+
+---
+
 # 🔗 Let's Connect
 
 If you're exploring:
@@ -891,6 +910,16 @@ Let's connect and learn together.
 *Software Architect | AI Engineering | Cloud Architecture | Backend Engineering*
 
 I focus on bridging traditional software and cloud engineering with modern AI engineering to design scalable, secure, observable, and production-ready intelligent systems.
+
+---
+
+# 📌 Key Message
+
+> **A model that works in a notebook is not necessarily a production AI system.**
+
+For backend engineers:
+
+> **Design for evaluation, reliability, monitoring, failure handling, and continuous improvement from the beginning.**
 
 ---
 

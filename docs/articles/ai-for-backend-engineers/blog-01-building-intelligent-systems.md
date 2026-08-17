@@ -1188,9 +1188,17 @@ And this is where traditional backend engineering starts evolving into **AI Syst
 
 ---
 
+## 💼 LinkedIn Version
+
+A compact version of this article is also available on LinkedIn.
+
+**[Read the LinkedIn Article →](https://www.linkedin.com/pulse/ai-backend-engineers-building-intelligent-systems-mihir-jha-ddxlc/?trackingId=OkeyAEG%2BSyezt01dcy8eTQ%3D%3D)**
+
+---
+
 # 📚 Related Topics in the Enterprise AI Engineering Handbook
 
-This article provides the engineering perspective.
+This article provides the engineering perspective from [Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/).
 
 For structured technical reference material, explore:
 
@@ -1275,7 +1283,7 @@ Let's connect and learn together.
 
 > **Build AI systems. Don't just build AI models.**
 
-For backend engineers:
+Engineering Perspective:
 
 > **Learn to design the system around the model.**
 

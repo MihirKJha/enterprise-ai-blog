@@ -1421,6 +1421,24 @@ Production Enterprise AI
 
 ---
 
+# 📚 Related Topics in the Enterprise AI Engineering Handbook
+
+This article provides the engineering perspective from the [Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/).
+
+For structured technical reference material, explore:
+
+- [Generative AI Fundamentals](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/foundation-models-llm-fundamentals/01-generative-ai-fundamentals/)
+- [Language Understanding Fundamentals](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/foundation-models-llm-fundamentals/02-language-understanding-fundamentals/)
+- [Word Embeddings](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/foundation-models-llm-fundamentals/03-word-embeddings/)
+- [Language Modeling](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/foundation-models-llm-fundamentals/04-language-modeling/)
+- [Attention & Positional Encoding](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/foundation-models-llm-fundamentals/05-attention-positional-encoding/)
+- [GPT & BERT Architecture](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/foundation-models-llm-fundamentals/06-gpt-bert-architecture/)
+- [Hugging Face & Transformers](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/foundation-models-llm-fundamentals/07-hugging-face-transformers/)
+- [LLM Generation Strategies](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/llm-generation-evaluation/01-llm-generation-strategies/)
+- [LLM Evaluation](https://enterpriseai.handbook.mihirkjha.com/03-generative-ai/llm-generation-evaluation/02-llm-evaluation/)
+
+---
+
 # 🔗 Connect
 
 If you're exploring:
@@ -1449,6 +1467,16 @@ Let's connect and learn together.
 *Software Architect | AI Engineering | Cloud Architecture | Backend Engineering*
 
 I focus on bridging traditional software and cloud engineering with modern AI engineering to design scalable, secure, observable, and production-ready intelligent systems.
+
+---
+
+# 📌 Key Message
+
+> **An LLM is more than an API — it is a Transformer-based system built from tokens, embeddings, attention, and autoregressive generation.**
+
+Engineering Perspective:
+
+> **Understand the engine behind the model so you can make better decisions about context, latency, memory, cost, and architecture.**
 
 ---
 

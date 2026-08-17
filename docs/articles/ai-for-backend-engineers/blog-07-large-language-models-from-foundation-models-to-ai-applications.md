@@ -1320,6 +1320,25 @@ Let's connect and learn together.
 
 ---
 
+# 📚 Related Topics in the Enterprise AI Engineering Handbook
+
+This article provides the engineering perspective from the [Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/).
+
+For structured technical reference material, explore:
+
+- [Introduction to Prompt Engineering](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/01-introduction-to-prompt-engineering/)
+- [Prompt Engineering Fundamentals](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/02-prompt-engineering-fundamentals/)
+- [Advanced Prompt Engineering](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/03-advanced-prompt-engineering/)
+- [Prompt Design Patterns](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/04-prompt-design-patterns/)
+- [Zero, One & Few-Shot Prompting](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/05-zero-one-few-shot-prompting/)
+- [Structured Outputs & Output Parsing](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/08-structured-outputs-output-parsing/)
+- [Function Calling & Tool Calling](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/09-function-calling-tool-calling/)
+- [Embeddings in Practice](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/embeddings-vector-search/01-embeddings-in-practice/)
+- [RAG Pipeline Components](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/rag-fundamentals/01-rag-pipeline-components/)
+- [Enterprise Generative AI Application Architecture](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/enterprise-ai-application-deployment/01-enterprise-generative-ai-application-architecture/)
+
+---
+
 # 👨‍💻 About the Author
 
 **Mihir Jha**
@@ -1327,6 +1346,16 @@ Let's connect and learn together.
 *Software Architect | AI Engineering | Cloud Architecture | Backend Engineering*
 
 I focus on bridging traditional software and cloud engineering with modern AI engineering to design scalable, secure, observable, and production-ready intelligent systems.
+
+---
+
+# 📌 Key Message
+
+> **Good LLM applications require more than a powerful model — they require effective instructions, context, validation, and application design.**
+
+Engineering Perspective:
+
+> **Treat prompts, context, sampling, validation, and security as engineering components around the model.**
 
 ---
 

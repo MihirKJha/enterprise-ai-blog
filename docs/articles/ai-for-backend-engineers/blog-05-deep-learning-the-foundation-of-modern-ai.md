@@ -1230,6 +1230,25 @@ Production Enterprise AI
 
 ---
 
+# 📚 Related Topics in the Enterprise AI Engineering Handbook
+
+This article provides the engineering perspective from the [Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/).
+
+For structured technical reference material, explore:
+
+- [Introduction to Deep Learning](https://enterpriseai.handbook.mihirkjha.com/02-deep-learning/deep-learning-fundamentals/01-introduction-to-deep-learning/)
+- [Neural Network Fundamentals](https://enterpriseai.handbook.mihirkjha.com/02-deep-learning/deep-learning-fundamentals/02-neural-network-fundamentals/)
+- [Forward and Backpropagation](https://enterpriseai.handbook.mihirkjha.com/02-deep-learning/deep-learning-fundamentals/07-forward-and-backpropagation/)
+- [Convolutional Neural Networks](https://enterpriseai.handbook.mihirkjha.com/02-deep-learning/computer-vision-cnns/01-convolutional-neural-networks/)
+- [Recurrent Neural Networks](https://enterpriseai.handbook.mihirkjha.com/02-deep-learning/sequence-models-transformers/01-recurrent-neural-networks/)
+- [Attention and Positional Encoding](https://enterpriseai.handbook.mihirkjha.com/02-deep-learning/sequence-models-transformers/03-attention-and-positional-encoding/)
+- [Transformer Architecture](https://enterpriseai.handbook.mihirkjha.com/02-deep-learning/sequence-models-transformers/04-transformer-architecture/)
+- [Transfer Learning and Fine-Tuning](https://enterpriseai.handbook.mihirkjha.com/02-deep-learning/computer-vision-cnns/03-transfer-learning-and-fine-tuning/)
+- [GPU-Accelerated Deep Learning](https://enterpriseai.handbook.mihirkjha.com/02-deep-learning/production-deep-learning/01-gpu-accelerated-deep-learning/)
+- [Building Production Deep Learning Systems](https://enterpriseai.handbook.mihirkjha.com/02-deep-learning/production-deep-learning/03-building-production-deep-learning-systems/)
+
+---
+
 # 🔗 Let's Connect
 
 If you're exploring:
@@ -1258,6 +1277,16 @@ Let's connect and learn together.
 *Software Architect | AI Engineering | Cloud Architecture | Backend Engineering*
 
 I focus on bridging traditional software and cloud engineering with modern AI engineering to design scalable, secure, observable, and production-ready intelligent systems.
+
+---
+
+# 📌 Key Message
+
+> **Modern Generative AI is built on decades of Deep Learning evolution.**
+
+Engineering Perspective:
+
+> **Understand the foundations — neural networks, CNNs, RNNs, and Transformers — to understand the systems built on top of them.**
 
 ---
 
