@@ -211,3 +211,84 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
+
+/* ============================================================
+   CURRENT ARTICLE LABEL IN OUTLINE
+   ============================================================ */
+
+(function () {
+
+    function addCurrentArticleLabel() {
+
+        const toc = document.querySelector(
+            ".md-sidebar--secondary .md-nav"
+        );
+
+        if (!toc) {
+            return;
+        }
+
+        if (
+            toc.querySelector(
+                ".current-article-label"
+            )
+        ) {
+            return;
+        }
+
+        const activeArticle =
+            document.querySelector(
+                ".md-nav--primary .md-nav__link--active"
+            );
+
+        if (!activeArticle) {
+            return;
+        }
+
+        const articleTitle =
+            activeArticle.textContent
+                .replace(/\s+/g, " ")
+                .trim();
+
+        if (!articleTitle) {
+            return;
+        }
+
+        const wrapper =
+            document.createElement("div");
+
+        wrapper.className =
+            "current-article-label";
+
+        wrapper.innerHTML = `
+            <div class="current-article-label__caption">
+                CURRENT ARTICLE
+            </div>
+            <div class="current-article-label__title">
+                ${articleTitle}
+            </div>
+        `;
+
+        toc.insertBefore(
+            wrapper,
+            toc.firstChild
+        );
+    }
+
+    if (typeof document$ !== "undefined") {
+
+        document$.subscribe(function () {
+            addCurrentArticleLabel();
+        });
+
+    } else {
+
+        document.addEventListener(
+            "DOMContentLoaded",
+            addCurrentArticleLabel
+        );
+
+    }
+
+})();
