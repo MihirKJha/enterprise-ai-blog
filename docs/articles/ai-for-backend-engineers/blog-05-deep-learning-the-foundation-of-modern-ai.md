@@ -6,6 +6,14 @@ description: >
   deployed, and operated in production AI systems.
 ---
 
+<div class="article-series">
+
+  <span class="article-series__name">AI FOR BACKEND ENGINEERS</span>
+  <span class="article-series__number">BLOG 05</span>
+
+</div>
+
+
 # 🚀 Deep Learning — The Foundation of Modern AI
 
 ![Deep Learning — The Foundation of Modern AI](../../assets/banners/articles/deep-learning-the-foundation-of-modern-ai.png)

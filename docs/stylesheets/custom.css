@@ -135,3 +135,38 @@ This file should remain relatively small.
     margin: 3rem 0;
 
 }
+
+/* ============================================================
+   ARTICLE SERIES BADGE
+   ============================================================ */
+
+.article-series {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+
+    margin-bottom: 0.8rem;
+
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.article-series__name {
+    color: #0969da;
+}
+
+.article-series__number {
+    padding: 0.15rem 0.55rem;
+
+    border-radius: 0.35rem;
+
+    background: #eef4ff;
+    color: #0969da;
+}
+
+[data-md-color-scheme="slate"] .article-series__number {
+    background: #1f3b63;
+    color: #58a6ff;
+}

@@ -6,6 +6,15 @@ description: >
   domain adaptation, and how to choose the right approach before RAG.
 ---
 
+
+<div class="article-series">
+
+  <span class="article-series__name">AI FOR BACKEND ENGINEERS</span>
+  <span class="article-series__number">BLOG 06</span>
+
+</div>
+
+
 # 🚀 AI for Backend Engineers — Large Language Models: Adapting Foundation Models for Enterprise AI
 
 ![Large Language Models: Adapting Foundation Models for Enterprise AI Banner](../../assets/banners/articles/large-language-models-adapting-foundation-models-for-enterprise-ai.png)

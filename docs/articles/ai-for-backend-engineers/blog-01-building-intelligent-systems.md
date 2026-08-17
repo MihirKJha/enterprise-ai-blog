@@ -6,6 +6,14 @@ description: >
   real-time inference, cloud infrastructure, feedback loops, and MLOps.
 ---
 
+<div class="article-series">
+
+  <span class="article-series__name">AI FOR BACKEND ENGINEERS</span>
+  <span class="article-series__number">BLOG 01</span>
+
+</div>
+
+
 # 🚀 AI for Backend Engineers: Building Intelligent Systems
 
 ![Building Intelligent Systems Banner](../../assets/banners/articles/building-intelligent-systems-banner.png)

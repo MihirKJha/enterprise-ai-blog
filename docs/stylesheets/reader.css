@@ -502,3 +502,35 @@
 .md-sidebar--secondary .md-nav__link:hover {
     background: #30363d;
 }
+
+
+/* ============================================================
+   FINAL ARTICLE H1 OVERRIDE
+   ============================================================ */
+
+.md-main .md-content .md-typeset h1 {
+    font-size: 2.25rem !important;
+    line-height: 1.2 !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.015em !important;
+
+    margin-top: 0.5rem !important;
+    margin-bottom: 1.25rem !important;
+}
+
+@media screen and (max-width: 76.1875em) {
+
+    .md-main .md-content .md-typeset h1 {
+        font-size: 2rem !important;
+    }
+
+}
+
+@media screen and (max-width: 59.9375em) {
+
+    .md-main .md-content .md-typeset h1 {
+        font-size: 1.75rem !important;
+        line-height: 1.2 !important;
+    }
+
+}

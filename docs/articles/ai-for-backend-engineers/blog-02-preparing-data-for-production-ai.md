@@ -6,6 +6,14 @@ description: >
   standardization, EDA, cloud data pipelines, and training-serving consistency.
 ---
 
+<div class="article-series">
+
+  <span class="article-series__name">AI FOR BACKEND ENGINEERS</span>
+  <span class="article-series__number">BLOG 02</span>
+
+</div>
+
+
 # 🚀 AI for Backend Engineers: Preparing Data for Production AI
 
 ![Preparing Data for Production AI Banner](../../assets/banners/articles/preparing-data-for-production-ai.png)

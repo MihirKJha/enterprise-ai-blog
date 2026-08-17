@@ -7,6 +7,16 @@ description: >
   production LLM architecture.
 ---
 
+
+
+<div class="article-series">
+
+  <span class="article-series__name">AI FOR BACKEND ENGINEERS</span>
+  <span class="article-series__number">BLOG 08</span>
+
+</div>
+
+
 # 🚀 AI for Backend Engineers — Large Language Models: Inside the Engine of Generative AI
 
 ![Large Language Models: Inside the Engine of Generative AI Banner](../../assets/banners/articles/large-language-models-inside-the-engine-of-generative-ai.png)

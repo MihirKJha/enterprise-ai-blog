@@ -6,6 +6,14 @@ description: >
   imbalanced datasets, model drift, monitoring, and modern AI observability.
 ---
 
+<div class="article-series">
+
+  <span class="article-series__name">AI FOR BACKEND ENGINEERS</span>
+  <span class="article-series__number">BLOG 04</span>
+
+</div>
+
+
 # 🚀 AI for Backend Engineers — Why AI Projects Fail in Production
 
 ![Why AI Projects Fail in Production Banner](../../assets/banners/articles/why-ai-projects-fail-in-production.png)

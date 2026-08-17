@@ -7,6 +7,16 @@ description: >
   engineering challenges.
 ---
 
+
+<div class="article-series">
+
+  <span class="article-series__name">AI FOR BACKEND ENGINEERS</span>
+  <span class="article-series__number">BLOG 07</span>
+
+</div>
+
+
+
 # 🚀 AI for Backend Engineers — Large Language Models: From Foundation Models to AI Applications
 
 ![Large Language Models: From Foundation Models to AI Applications Banner](../../assets/banners/articles/large-language-models-from-foundation-models-to-ai-applications.png)
