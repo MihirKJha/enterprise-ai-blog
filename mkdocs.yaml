@@ -134,14 +134,14 @@ nav:
 
       - AI for Backend Engineers:
           - Overview: articles/ai-for-backend-engineers/index.md
-          - Building Intelligent Systems: articles/ai-for-backend-engineers/building-intelligent-systems.md
-          - Preparing Data for Production AI: articles/ai-for-backend-engineers/preparing-data-for-production-ai.md
-          - Choosing the Right Machine Learning Algorithms: articles/ai-for-backend-engineers/choosing-the-right-machine-learning-algorithms.md
-          - Why AI Projects Fail in Production: articles/ai-for-backend-engineers/why-ai-projects-fail-in-production.md
-          - Deep Learning — The Foundation of Modern AI: articles/ai-for-backend-engineers/deep-learning-the-foundation-of-modern-ai.md
-          - Large Language Models — Inside the Engine of Generative AI: articles/ai-for-backend-engineers/large-language-models-inside-the-engine-of-generative-ai.md
-          - Large Language Models — From Foundation Models to AI Applications: articles/ai-for-backend-engineers/large-language-models-from-foundation-models-to-ai-applications.md
-          - Large Language Models — Adapting Foundation Models for Enterprise AI: articles/ai-for-backend-engineers/large-language-models-adapting-foundation-models-for-enterprise-ai.md
+          - Blog 01 — Building Intelligent Systems: articles/ai-for-backend-engineers/blog-01-building-intelligent-systems.md
+          - Blog 02 — Preparing Data for Production AI: articles/ai-for-backend-engineers/blog-02-preparing-data-for-production-ai.md
+          - Blog 03 — Choosing the Right Machine Learning Algorithms: articles/ai-for-backend-engineers/blog-03-choosing-the-right-machine-learning-algorithms.md
+          - Blog 04 — Why AI Projects Fail in Production: articles/ai-for-backend-engineers/blog-04-why-ai-projects-fail-in-production.md
+          - Blog 05 — Deep Learning — The Foundation of Modern AI: articles/ai-for-backend-engineers/blog-05-deep-learning-the-foundation-of-modern-ai.md
+          - Blog 06 — Large Language Models — Inside the Engine of Generative AI: articles/ai-for-backend-engineers/blog-06-large-language-models-inside-the-engine-of-generative-ai.md
+          - Blog 07 — Large Language Models — From Foundation Models to AI Applications: articles/ai-for-backend-engineers/blog-07-large-language-models-from-foundation-models-to-ai-applications.md
+          - Blog 08 — Large Language Models — Adapting Foundation Models for Enterprise AI: articles/ai-for-backend-engineers/blog-08-large-language-models-adapting-foundation-models-for-enterprise-ai.md
 
       - Inside Modern AI Systems:
           - Overview: articles/inside-modern-ai-systems/index.md
