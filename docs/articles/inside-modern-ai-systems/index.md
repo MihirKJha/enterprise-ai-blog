@@ -572,25 +572,25 @@ LinkedIn and Medium provide broader distribution and discovery.
 
 # 📚 Enterprise AI Engineering Handbook
 
-The **Enterprise AI Engineering Handbook** provides structured reference material across the broader AI engineering journey.
+The **Enterprise AI Engineering Handbook** provides structured technical reference material supporting this journey.
 
-🔗 https://enterpriseai.handbook.mihirkjha.com/
+[Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/)
 
 ---
 
 # 💻 GitHub
 
-Implementation work and supporting projects:
+Implementation projects and supporting engineering work:
 
-🔗 https://github.com/MihirKJha/
+[GitHub](https://github.com/MihirKJha/)
 
 ---
 
 # 💼 LinkedIn
 
-Follow the technical journey and article announcements:
+Follow the journey, article announcements, architecture discussions, and production AI insights:
 
-🔗 https://www.linkedin.com/in/mihirkrjha/
+[LinkedIn](https://www.linkedin.com/in/mihirkrjha/
 
 ---
 
@@ -598,7 +598,8 @@ Follow the technical journey and article announcements:
 
 Follow the broader technical journey through the **Enterprise AI Engineering** newsletter:
 
-🔗 https://www.linkedin.com/newsletters/enterprise-ai-engineering-7479222208079319041/
+[Enterprise AI Engineering Newsletter](https://www.linkedin.com/newsletters/enterprise-ai-engineering-7479222208079319041/)
+
 
 ---
 

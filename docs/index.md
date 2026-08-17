@@ -738,21 +738,22 @@ The focus now shifts from building the publishing platform to **building the kno
 
 # 🔗 Connect With Me
 
-### 💼 LinkedIn
+If you're exploring:
 
-https://www.linkedin.com/in/mihirkrjha/
+- AI Engineering
+- Cloud AI Architecture
+- MLOps
+- Distributed ML Systems
+- RAG & Agentic AI
+- Scalable Backend Architecture
+- AI System Design
 
-### 📰 Enterprise AI Engineering Newsletter
+Let's connect and learn together.
 
-https://www.linkedin.com/newsletters/enterprise-ai-engineering-7479222208079319041/
-
-### 📚 Enterprise AI Engineering Handbook
-
-https://enterpriseai.handbook.mihirkjha.com/
-
-### 💻 GitHub
-
-https://github.com/MihirKJha/
+💼 [LinkedIn](https://www.linkedin.com/in/mihirkrjha/)
+📚 [Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/)
+📰 [Enterprise AI Engineering Newsletter](https://www.linkedin.com/newsletters/enterprise-ai-engineering-7479222208079319041/)
+💻 [GitHub](https://github.com/MihirKJha/)
 
 ---
 

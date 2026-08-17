@@ -1297,6 +1297,34 @@ Production Enterprise AI
 
 ---
 
+## 💼 LinkedIn Version
+
+A compact version of this article is also available on LinkedIn.
+
+**[Read the LinkedIn Article →](https://www.linkedin.com/pulse/ai-backend-engineers-large-language-models-from-foundation-mihir-jha-qhlof/?trackingId=pLK7auZ2TfqpK1vou0r2KA%3D%3D)**
+
+---
+
+
+# 📚 Related Topics in the Enterprise AI Engineering Handbook
+
+This article provides the engineering perspective from the [Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/).
+
+For structured technical reference material, explore:
+
+- [Introduction to Prompt Engineering](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/01-introduction-to-prompt-engineering/)
+- [Prompt Engineering Fundamentals](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/02-prompt-engineering-fundamentals/)
+- [Advanced Prompt Engineering](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/03-advanced-prompt-engineering/)
+- [Prompt Design Patterns](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/04-prompt-design-patterns/)
+- [Zero, One & Few-Shot Prompting](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/05-zero-one-few-shot-prompting/)
+- [Structured Outputs & Output Parsing](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/08-structured-outputs-output-parsing/)
+- [Function Calling & Tool Calling](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/09-function-calling-tool-calling/)
+- [Embeddings in Practice](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/embeddings-vector-search/01-embeddings-in-practice/)
+- [RAG Pipeline Components](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/rag-fundamentals/01-rag-pipeline-components/)
+- [Enterprise Generative AI Application Architecture](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/enterprise-ai-application-deployment/01-enterprise-generative-ai-application-architecture/)
+
+---
+
 # 🔗 Connect
 
 If you're exploring:
@@ -1317,25 +1345,6 @@ Let's connect and learn together.
 📚 [Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/)
 📰 [Enterprise AI Engineering Newsletter](https://www.linkedin.com/newsletters/enterprise-ai-engineering-7479222208079319041/)
 💻 [GitHub](https://github.com/MihirKJha/)
-
----
-
-# 📚 Related Topics in the Enterprise AI Engineering Handbook
-
-This article provides the engineering perspective from the [Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/).
-
-For structured technical reference material, explore:
-
-- [Introduction to Prompt Engineering](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/01-introduction-to-prompt-engineering/)
-- [Prompt Engineering Fundamentals](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/02-prompt-engineering-fundamentals/)
-- [Advanced Prompt Engineering](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/03-advanced-prompt-engineering/)
-- [Prompt Design Patterns](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/04-prompt-design-patterns/)
-- [Zero, One & Few-Shot Prompting](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/05-zero-one-few-shot-prompting/)
-- [Structured Outputs & Output Parsing](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/08-structured-outputs-output-parsing/)
-- [Function Calling & Tool Calling](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/prompt-engineering-llm-interaction/09-function-calling-tool-calling/)
-- [Embeddings in Practice](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/embeddings-vector-search/01-embeddings-in-practice/)
-- [RAG Pipeline Components](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/rag-fundamentals/01-rag-pipeline-components/)
-- [Enterprise Generative AI Application Architecture](https://enterpriseai.handbook.mihirkjha.com/04-prompt-engineering/enterprise-ai-application-deployment/01-enterprise-generative-ai-application-architecture/)
 
 ---
 

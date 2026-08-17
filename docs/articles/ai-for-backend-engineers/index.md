@@ -670,7 +670,7 @@ Projects, experiments, and supporting source code.
 
 The **Enterprise AI Engineering Handbook** provides structured technical reference material supporting this journey.
 
-🔗 https://enterpriseai.handbook.mihirkjha.com/
+[Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/)
 
 ---
 
@@ -678,7 +678,7 @@ The **Enterprise AI Engineering Handbook** provides structured technical referen
 
 Implementation projects and supporting engineering work:
 
-🔗 https://github.com/MihirKJha/
+[GitHub](https://github.com/MihirKJha/)
 
 ---
 
@@ -686,7 +686,7 @@ Implementation projects and supporting engineering work:
 
 Follow the journey, article announcements, architecture discussions, and production AI insights:
 
-🔗 https://www.linkedin.com/in/mihirkrjha/
+[LinkedIn](https://www.linkedin.com/in/mihirkrjha/
 
 ---
 
@@ -694,7 +694,7 @@ Follow the journey, article announcements, architecture discussions, and product
 
 Follow the broader technical journey through the **Enterprise AI Engineering** newsletter:
 
-🔗 https://www.linkedin.com/newsletters/enterprise-ai-engineering-7479222208079319041/
+[Enterprise AI Engineering Newsletter](https://www.linkedin.com/newsletters/enterprise-ai-engineering-7479222208079319041/)
 
 ---
 

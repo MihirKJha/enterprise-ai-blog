@@ -1249,6 +1249,14 @@ For structured technical reference material, explore:
 
 ---
 
+## 💼 LinkedIn Version
+
+A compact version of this article is also available on LinkedIn.
+
+**[Read the LinkedIn Article →](https://www.linkedin.com/pulse/ai-backend-engineers-deep-learning-foundation-modern-mihir-jha-y1kvf/?trackingId=OkeyAEG%2BSyezt01dcy8eTQ%3D%3D)**
+
+---
+
 # 🔗 Let's Connect
 
 If you're exploring:

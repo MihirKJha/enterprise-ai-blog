@@ -845,6 +845,14 @@ will be well positioned to build the next generation of intelligent systems.
 
 ---
 
+## 💼 LinkedIn Version
+
+A compact version of this article is also available on LinkedIn.
+
+**[Read the LinkedIn Article →](https://www.linkedin.com/pulse/ai-backend-engineers-data-preparation-production-ml-systems-mihir-jha-zthfc/?trackingId=OkeyAEG%2BSyezt01dcy8eTQ%3D%3D)**
+
+---
+
 # 📚 Related Topics in the Enterprise AI Engineering Handbook
 
 This article provides the engineering perspective from [Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/).
