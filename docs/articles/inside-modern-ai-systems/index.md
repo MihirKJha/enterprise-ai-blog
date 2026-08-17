@@ -4,6 +4,8 @@ description: >
   A hands-on technical series exploring how modern AI systems work internally,
   from neural networks and Transformers to LLMs, training, inference,
   optimization, and evaluation.
+hide:
+  - toc
 ---
 
 ---

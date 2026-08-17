@@ -468,3 +468,19 @@
 .sidebar-toggle {
     display: none !important;
 }
+
+/* ============================================================
+   PRIMARY SIDEBAR WIDTH
+   ============================================================ */
+
+@media screen and (min-width: 76.25em) {
+
+    .md-sidebar--primary {
+        width: 18rem !important;
+    }
+
+    .md-sidebar--primary .md-sidebar__scrollwrap {
+        width: 18rem !important;
+    }
+
+}

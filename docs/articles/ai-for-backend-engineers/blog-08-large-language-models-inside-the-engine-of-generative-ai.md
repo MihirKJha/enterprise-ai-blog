@@ -1425,17 +1425,21 @@ If you're exploring:
 
 Let's connect and learn together.
 
-🔗 **LinkedIn:**  
-https://www.linkedin.com/in/mihirkrjha/
+### 💼 LinkedIn
 
-📰 **Enterprise AI Engineering Newsletter:**  
-https://www.linkedin.com/newsletters/enterprise-ai-engineering-7479222208079319041/
+[LinkedIn — Mihir Jha](https://www.linkedin.com/in/mihirkrjha/)
 
-📚 **Enterprise AI Engineering Handbook:**  
-https://enterpriseai.handbook.mihirkjha.com/
+### 📚 Enterprise AI Engineering Handbook
 
-💻 **GitHub:**  
-https://github.com/MihirKJha/enterprise-ai-blog
+[Enterprise AI Engineering Handbook](https://enterpriseai.handbook.mihirkjha.com/)
+
+### 📰 Enterprise AI Engineering Newsletter
+
+[Enterprise AI Engineering Newsletter](https://www.linkedin.com/newsletters/enterprise-ai-engineering-7479222208079319041/)
+
+### 💻 GitHub
+
+[GitHub Repository - Mihir Jha](https://github.com/MihirKJha/)
 
 ---
 

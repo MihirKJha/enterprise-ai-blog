@@ -1,8 +1,10 @@
 ---
 title: Enterprise AI Engineering
 description: >
-  A production-focused architecture series exploring how to design, build,
-  secure, operate, and scale enterprise-grade AI platforms and intelligent systems.
+  A production-focused architecture series exploring how to design,
+  build, secure, operate, and scale enterprise-grade AI platforms.
+hide:
+  - toc
 ---
 
 ---

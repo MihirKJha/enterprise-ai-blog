@@ -2,8 +2,10 @@
 title: AI for Backend Engineers
 description: >
   A production-focused learning journey connecting Machine Learning,
-  Deep Learning, Generative AI, LLMs, RAG, AI Agents, Cloud, Backend
-  Engineering, and production AI systems.
+  Deep Learning, Generative AI, LLMs, RAG, AI Agents, Cloud,
+  Backend Engineering, and production AI systems.
+hide:
+  - toc
 ---
 
 ---

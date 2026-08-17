@@ -61,7 +61,7 @@ You are encouraged to reference and link to the original article.
 
 A suggested citation is:
 
-> Mihir Jha, *[Article Title]*, Enterprise AI Engineering Blog, [Article URL].
+> Mihir Jha, Enterprise AI Engineering Blog (https://enterpriseai.handbook.mihirkjha.com/).
 
 When sharing ideas or explanations derived from an article, please provide appropriate attribution and link to the original source.
 
