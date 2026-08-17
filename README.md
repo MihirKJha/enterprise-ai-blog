@@ -347,7 +347,7 @@ Focused on designing scalable, secure, observable, and production-ready systems 
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 ### 🚀 Building Production-Grade AI Systems Through Engineering, Architecture & Continuous Learning.
 

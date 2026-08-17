@@ -327,7 +327,7 @@ Focused on bridging traditional software and cloud engineering with modern AI en
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 ### 🚀 Learn AI. Understand AI. Build AI. Architect AI.
 

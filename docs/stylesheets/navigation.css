@@ -470,17 +470,50 @@
 }
 
 /* ============================================================
-   PRIMARY SIDEBAR WIDTH
+   RESIZABLE PRIMARY SIDEBAR
    ============================================================ */
 
 @media screen and (min-width: 76.25em) {
 
+    :root {
+        --primary-sidebar-width: 10rem;
+    }
+
     .md-sidebar--primary {
-        width: 18rem !important;
+        width: var(--primary-sidebar-width) !important;
+        max-width: var(--primary-sidebar-width) !important;
+        min-width: var(--primary-sidebar-width) !important;
+
+        position: relative;
     }
 
     .md-sidebar--primary .md-sidebar__scrollwrap {
-        width: 18rem !important;
+        width: var(--primary-sidebar-width) !important;
+        max-width: var(--primary-sidebar-width) !important;
     }
+
+    /* Invisible draggable edge */
+    .sidebar-resizer {
+        position: absolute;
+
+        top: 0;
+        right: -4px;
+        bottom: 0;
+
+        width: 8px;
+
+        cursor: col-resize;
+
+        z-index: 9999;
+
+        background: transparent;
+    }
+
+    /* Visible only while hovering / resizing */
+    .sidebar-resizer:hover,
+    .sidebar-resizer.dragging {
+        background: rgba(9, 105, 218, 0.18);
+    }
+}
 
 }

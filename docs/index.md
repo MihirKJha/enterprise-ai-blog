@@ -766,7 +766,7 @@ Focused on bridging traditional software and cloud engineering with modern AI en
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 ### 🚀 Learn AI. Build AI. Engineer AI.
 

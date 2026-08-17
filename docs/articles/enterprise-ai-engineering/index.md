@@ -541,7 +541,7 @@ Focused on designing scalable, secure, observable, and production-ready systems 
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 ### 🏗️ Learn AI. Understand AI. Architect AI.
 

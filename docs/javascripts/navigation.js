@@ -211,3 +211,162 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
+
+/* ============================================================
+   RESIZABLE PRIMARY SIDEBAR
+   ============================================================ */
+
+(function () {
+
+    const MIN_WIDTH = 10;
+    const MAX_WIDTH = 16;
+    const DEFAULT_WIDTH = 10;
+    const STORAGE_KEY = "enterprise-ai-primary-sidebar-width";
+
+    function clamp(value, min, max) {
+        return Math.min(Math.max(value, min), max);
+    }
+
+    function getStoredWidth() {
+        const stored = parseFloat(
+            localStorage.getItem(STORAGE_KEY)
+        );
+
+        return Number.isFinite(stored)
+            ? clamp(stored, MIN_WIDTH, MAX_WIDTH)
+            : DEFAULT_WIDTH;
+    }
+
+    function setSidebarWidth(rem) {
+        document.documentElement.style.setProperty(
+            "--primary-sidebar-width",
+            `${rem}rem`
+        );
+
+        localStorage.setItem(
+            STORAGE_KEY,
+            rem.toString()
+        );
+    }
+
+    function createResizer() {
+
+        const sidebar = document.querySelector(
+            ".md-sidebar--primary"
+        );
+
+        if (!sidebar) {
+            return;
+        }
+
+        if (sidebar.querySelector(".sidebar-resizer")) {
+            return;
+        }
+
+        const resizer = document.createElement("div");
+
+        resizer.className = "sidebar-resizer";
+        resizer.setAttribute(
+            "aria-label",
+            "Resize navigation sidebar"
+        );
+
+        sidebar.appendChild(resizer);
+
+        let dragging = false;
+
+        resizer.addEventListener("pointerdown", function (event) {
+
+            if (window.innerWidth < 1220) {
+                return;
+            }
+
+            dragging = true;
+
+            resizer.classList.add("dragging");
+
+            document.body.style.cursor = "col-resize";
+            document.body.style.userSelect = "none";
+
+            resizer.setPointerCapture(event.pointerId);
+
+            event.preventDefault();
+        });
+
+        resizer.addEventListener("pointermove", function (event) {
+
+            if (!dragging) {
+                return;
+            }
+
+            const sidebarLeft =
+                sidebar.getBoundingClientRect().left;
+
+            const widthPx =
+                event.clientX - sidebarLeft;
+
+            const rem =
+                widthPx / parseFloat(
+                    getComputedStyle(document.documentElement)
+                        .fontSize
+                );
+
+            setSidebarWidth(
+                clamp(rem, MIN_WIDTH, MAX_WIDTH)
+            );
+        });
+
+        function stopDragging() {
+
+            if (!dragging) {
+                return;
+            }
+
+            dragging = false;
+
+            resizer.classList.remove("dragging");
+
+            document.body.style.cursor = "";
+            document.body.style.userSelect = "";
+        }
+
+        resizer.addEventListener(
+            "pointerup",
+            stopDragging
+        );
+
+        resizer.addEventListener(
+            "pointercancel",
+            stopDragging
+        );
+
+        resizer.addEventListener(
+            "lostpointercapture",
+            stopDragging
+        );
+    }
+
+    function initialize() {
+
+        setSidebarWidth(getStoredWidth());
+
+        createResizer();
+    }
+
+    if (document$) {
+
+        document$.subscribe(function () {
+            initialize();
+        });
+
+    } else {
+
+        document.addEventListener(
+            "DOMContentLoaded",
+            initialize
+        );
+
+    }
+
+})();

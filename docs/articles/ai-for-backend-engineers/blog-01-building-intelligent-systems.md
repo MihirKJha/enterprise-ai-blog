@@ -1281,4 +1281,12 @@ For backend engineers:
 
 ---
 
-*© 2026 Mihir Jha*
+<div align="center" markdown="1">
+
+### 🚀 Keep Learning. Keep Building. Keep Sharing.
+
+**Building Production-Grade AI Systems Through Engineering, Architecture & Continuous Learning.**
+
+**© 2026 Mihir Jha**
+
+</div>

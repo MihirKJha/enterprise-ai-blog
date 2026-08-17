@@ -1580,7 +1580,7 @@ I focus on bridging traditional software and cloud engineering with modern AI en
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 ### 🚀 Keep Learning. Keep Building. Keep Sharing.
 
