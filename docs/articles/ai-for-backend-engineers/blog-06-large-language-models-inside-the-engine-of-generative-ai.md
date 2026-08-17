@@ -12,7 +12,7 @@ description: >
 <div class="article-series">
 
   <span class="article-series__name">AI FOR BACKEND ENGINEERS</span>
-  <span class="article-series__number">BLOG 08</span>
+  <span class="article-series__number">BLOG 06</span>
 
 </div>
 
