@@ -32,7 +32,6 @@ theme:
 
   features:
     # Navigation
-    - content.action.edit
     - navigation.path
     - navigation.instant
     - navigation.tracking

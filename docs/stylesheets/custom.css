@@ -144,7 +144,6 @@ This file should remain relatively small.
     display: flex;
     align-items: center;
     gap: 0.6rem;
-
     margin-bottom: 0.8rem;
 
     font-size: 0.72rem;
@@ -154,19 +153,27 @@ This file should remain relatively small.
 }
 
 .article-series__name {
-    color: #0969da;
+    color: #0757b5;
 }
 
 .article-series__number {
-    padding: 0.15rem 0.55rem;
+    padding: 0.18rem 0.6rem;
 
     border-radius: 0.35rem;
 
-    background: #eef4ff;
-    color: #0969da;
+    background: #1d4ed8;
+    color: #ffffff;
+
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+}
+
+[data-md-color-scheme="slate"] .article-series__name {
+    color: #58a6ff;
 }
 
 [data-md-color-scheme="slate"] .article-series__number {
-    background: #1f3b63;
-    color: #58a6ff;
+    background: #2563eb;
+    color: #ffffff;
 }

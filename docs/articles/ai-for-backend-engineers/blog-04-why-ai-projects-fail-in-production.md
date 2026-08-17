@@ -884,8 +884,6 @@ Let's connect and learn together.
 
 ---
 
----
-
 # 👨‍💻 About the Author
 
 **Mihir Jha**
