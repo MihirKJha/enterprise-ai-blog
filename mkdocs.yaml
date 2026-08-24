@@ -129,6 +129,13 @@ nav:
   - Home: index.md
   - About: about.md
 
+  - Architecture Insights:
+      - Overview: architecture-insights/index.md
+      - Where RAG Fits in Architecture: architecture-insights/1.1-where-rag-fits-in-architecture.md
+      - From LLM Apps to Enterprise RAG : architecture-insights/1.2-from-llm-apps-to-enterprise-rag.md
+      - Anatomy of an Enterprise RAG Request: architecture-insights/1.3-anatomy-of-an-enterprise-rag-request.md
+      
+
   - Articles:
 
       - AI for Backend Engineers:
