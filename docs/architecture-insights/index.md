@@ -38,35 +38,43 @@ This is a continuously growing section. A new Architecture Insight is added alon
 
 Use this section as a quick architectural reference to revisit the key ideas, patterns, and design decisions behind modern enterprise AI systems.
 
-### Blog
+---
+
+
+## Article
 
 **Canonical technical source**
 
 Detailed articles, architecture diagrams, code, and production analysis.
 
-### LinkedIn
+---
+
+## LinkedIn
 
 **Discovery + discussion**
 
 Compact versions, key insights, architecture discussions, and announcements.
 
-### Medium
+---
 
-**Secondary distribution**
 
-Long-form secondary publication pointing readers back to the canonical article.
-
-### Newsletter
+## Newsletter
 
 **Recurring audience**
 
 Selected new articles and engineering insights.
 
-### Handbook
+---
+
+
+## Handbook
 
 **Structured reference**
 
 Chapter-based technical learning material.
+
+---
+
 
 ### GitHub
 
