@@ -128,9 +128,9 @@ Focused on bridging traditional software and cloud engineering with modern AI en
 
 <div align="center" markdown="1">
 
-### 🚀 Learn AI. Build AI. Engineer AI.
+### 🚀 Learn AI. Build AI. Engineer AI.Architect AI
 
-**AI for Backend Engineers**
+**Architecture Insights**
 
 **© 2026 Mihir Jha**
 
