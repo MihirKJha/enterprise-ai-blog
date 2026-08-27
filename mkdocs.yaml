@@ -135,6 +135,7 @@ nav:
           - Where RAG Fits in Architecture: architecture-insights/genai-and-rag/1.1-where-rag-fits-in-enterprise-ai-architecture.md
           - From LLM Apps to Enterprise RAG : architecture-insights/genai-and-rag/1.2-from-llm-applications-to-enterprise-rag-systems.md
           - Anatomy of an Enterprise RAG Request: architecture-insights/genai-and-rag/1.3-anatomy-of-an-enterprise-rag-request.md
+          - What Belongs Inside Retrieval: architecture-insights/genai-and-rag/1.4-designing-rag-system-boundaries.md
         
 
   - Articles:
