@@ -138,6 +138,7 @@ nav:
           - What Belongs Inside Retrieval: architecture-insights/genai-and-rag/1.4-designing-rag-system-boundaries.md
           - Designing Enterprise Knowledge Architecture For AI: architecture-insights/genai-and-rag/1.5-designing-enterprise-knowledge-architecture-for-ai.md
           - Designing Reliable Enterprise AI: architecture-insights/genai-and-rag/2.1-designing-reliable-enterprise-ai-failure-fallback-control.md
+          - Architecting The Retrieval Layer: architecture-insights/genai-and-rag/2.2-architecting-the-retrieval-layer-for-enterprise-rag.md
 
   - Articles:
 
