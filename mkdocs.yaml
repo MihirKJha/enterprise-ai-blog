@@ -140,6 +140,7 @@ nav:
           - Designing Reliable Enterprise AI: architecture-insights/genai-and-rag/2.1-designing-reliable-enterprise-ai-failure-fallback-control.md
           - Architecting The Retrieval Layer: architecture-insights/genai-and-rag/2.2-architecting-the-retrieval-layer-for-enterprise-rag.md
           - Engineering Query Transformation Pipelines: architecture-insights/genai-and-rag/2.3-engineering-query-transformation-pipelines-for-enterprise-retrieval.md
+          - Structuring Metadata & Document-Aware Retrieval: architecture-insights/genai-and-rag/2.4-structuring-metadata-and-document-aware-retrieval.md
 
   - Articles:
 
