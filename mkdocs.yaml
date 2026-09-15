@@ -142,6 +142,7 @@ nav:
           - Engineering Query Transformation Pipelines: architecture-insights/genai-and-rag/2.3-engineering-query-transformation-pipelines-for-enterprise-retrieval.md
           - Structuring Metadata & Document-Aware Retrieval: architecture-insights/genai-and-rag/2.4-structuring-metadata-and-document-aware-retrieval.md
           - Architecting Retriever Selection: architecture-insights/genai-and-rag/2.5-architecting-retriever-selection-an-enterprise-decision-framework.md
+          - Engineering the Context Control Layer for Enterprise Retrieval: architecture-insights/genai-and-rag/3.1-engineering-the-context-control-layer-for-enterprise-retrieval.md
 
   - Articles:
 
