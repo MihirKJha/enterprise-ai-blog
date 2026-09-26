@@ -144,7 +144,8 @@ nav:
           - Architecting Retriever Selection: architecture-insights/genai-and-rag/2.5-architecting-retriever-selection-an-enterprise-decision-framework.md
           - Engineering the Context Control Layer : architecture-insights/genai-and-rag/3.1-engineering-the-context-control-layer-for-enterprise-retrieval.md
           - Architecting Multi Signal Retrieval: architecture-insights/genai-and-rag/3.2-architecting-multi-signal-retrieval-for-enterprise-ai.md
-          #- Architecting Multi Representation Knowledge Retrieval: architecture-insights/genai-and-rag/3.3-architecting-multi-representation-knowledge-retrieval.md
+          - Architecting Multi Representation Knowledge Retrieval: architecture-insights/genai-and-rag/3.3-architecting-multi-representation-knowledge-retrieval.md
+          #- Engineering Hybrid Retrieval (Sparse & Dense): architecture-insights/genai-and-rag/3.4_engineering_hybrid_retrieval_sparse_dense.md
 
 
   - Articles:
