@@ -145,9 +145,10 @@ nav:
           - Engineering the Context Control Layer : architecture-insights/genai-and-rag/3.1-engineering-the-context-control-layer-for-enterprise-retrieval.md
           - Architecting Multi Signal Retrieval: architecture-insights/genai-and-rag/3.2-architecting-multi-signal-retrieval-for-enterprise-ai.md
           - Architecting Multi Representation Knowledge Retrieval: architecture-insights/genai-and-rag/3.3-architecting-multi-representation-knowledge-retrieval.md
-          - Engineering Hybrid Retrieval (Sparse & Dense): architecture-insights/genai-and-rag/3.4_engineering_hybrid_retrieval_sparse_dense.md
-          - Architecting Multi-Stage Retrieval (From Recall to Precision): architecture-insights/genai-and-rag/3.5_architecting_multi_stage_retrieval_from_recall_to_precision.md
-          - Orchestrating Retrieval Across Enterprise Knowledge: architecture-insights/genai-and-rag/3.6_orchestrating_retrieval_across_enterprise_knowledge.md
+          - Engineering Hybrid Retrieval : architecture-insights/genai-and-rag/3.4_engineering_hybrid_retrieval_sparse_dense.md
+          - Architecting Multi-Stage Retrieval: architecture-insights/genai-and-rag/3.5_architecting_multi_stage_retrieval_from_recall_to_precision.md
+          - Orchestrating Retrieval Across Enterprise : architecture-insights/genai-and-rag/3.6_orchestrating_retrieval_across_enterprise_knowledge.md
+          - Architecting Agentic Retrieval : architecture-insights/genai-and-rag/3.7_architecting_agentic_retrieval_planning_evidence_control.md
 
 
   - Articles:
