@@ -150,6 +150,8 @@ nav:
           - Orchestrating Retrieval Across Enterprise : architecture-insights/genai-and-rag/3.6_orchestrating_retrieval_across_enterprise_knowledge.md
           - Architecting Agentic Retrieval : architecture-insights/genai-and-rag/3.7_architecting_agentic_retrieval_planning_evidence_control.md
           - Optimizing Retrieval Architecture : architecture-insights/genai-and-rag/3.8_optimizing_retrieval_architecture_relevance_diversity_recency.md
+          - Engineering Query-to-Knowledge Alignment : architecture-insights/genai-and-rag/3.9_engineering_query_to_knowledge_alignment.md
+          - Architecting Graph RAG for Relationship-Aware Enterprise Knowledge : architecture-insights/genai-and-rag/4.1_architecting_graph_rag_relationship_aware_enterprise_knowledge.md
 
 
   - Articles:
