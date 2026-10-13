@@ -146,56 +146,109 @@
 }
 
 
+
 /* ==========================================
-   MERMAID — BASE COLORS
+   MERMAID — GLOBAL STYLING
    Enterprise AI Engineering Handbook
 ========================================== */
 
-/* Light mode */
+/* ---------- Light mode ---------- */
 
 .mermaid .node rect,
 .mermaid .node polygon,
-.mermaid .node circle {
-    fill: #E0F2FE;
-    stroke: #0284C7;
-    stroke-width: 1.5px;
+.mermaid .node circle,
+.mermaid .node ellipse,
+.mermaid .node path,
+.mermaid .node .label-container {
+  fill: #E0F2FE !important;
+  stroke: #0284C7 !important;
+  stroke-width: 1.5px !important;
 }
 
 .mermaid .nodeLabel,
-.mermaid .label text {
-    color: #0C1E35;
-    fill: #0C1E35;
+.mermaid .label text,
+.mermaid .node text {
+  fill: #0C1E35 !important;
+  color: #0C1E35 !important;
 }
 
-.mermaid .edgePath .path {
-    stroke: #64748B;
-    stroke-width: 1.5px;
+.mermaid .edgePath .path,
+.mermaid .flowchart-link,
+.mermaid .messageLine0,
+.mermaid .messageLine1 {
+  stroke: #64748B !important;
 }
 
-.mermaid .edgeLabel {
-    color: #334155;
+.mermaid marker path {
+  fill: #64748B !important;
+  stroke: #64748B !important;
 }
 
-/* Dark mode */
+.mermaid .edgeLabel,
+.mermaid .edgeLabel p,
+.mermaid .edgeLabel span {
+  color: #334155 !important;
+  background-color: #FFFFFF !important;
+}
+
+.mermaid .cluster rect {
+  fill: #F8FAFC !important;
+  stroke: #94A3B8 !important;
+}
+
+.mermaid .cluster-label,
+.mermaid .cluster-label text {
+  fill: #334155 !important;
+  color: #334155 !important;
+}
+
+
+/* ---------- Dark mode ---------- */
 
 [data-md-color-scheme="slate"] .mermaid .node rect,
 [data-md-color-scheme="slate"] .mermaid .node polygon,
-[data-md-color-scheme="slate"] .mermaid .node circle {
-    fill: #172554;
-    stroke: #38BDF8;
-    stroke-width: 1.5px;
+[data-md-color-scheme="slate"] .mermaid .node circle,
+[data-md-color-scheme="slate"] .mermaid .node ellipse,
+[data-md-color-scheme="slate"] .mermaid .node path,
+[data-md-color-scheme="slate"] .mermaid .node .label-container {
+  fill: #172554 !important;
+  stroke: #38BDF8 !important;
+  stroke-width: 1.5px !important;
 }
 
 [data-md-color-scheme="slate"] .mermaid .nodeLabel,
-[data-md-color-scheme="slate"] .mermaid .label text {
-    color: #F8FAFC;
-    fill: #F8FAFC;
+[data-md-color-scheme="slate"] .mermaid .label text,
+[data-md-color-scheme="slate"] .mermaid .node text {
+  fill: #F8FAFC !important;
+  color: #F8FAFC !important;
 }
 
-[data-md-color-scheme="slate"] .mermaid .edgePath .path {
-    stroke: #94A3B8;
+[data-md-color-scheme="slate"] .mermaid .edgePath .path,
+[data-md-color-scheme="slate"] .mermaid .flowchart-link,
+[data-md-color-scheme="slate"] .mermaid .messageLine0,
+[data-md-color-scheme="slate"] .mermaid .messageLine1 {
+  stroke: #94A3B8 !important;
 }
 
-[data-md-color-scheme="slate"] .mermaid .edgeLabel {
-    color: #E2E8F0;
+[data-md-color-scheme="slate"] .mermaid marker path {
+  fill: #94A3B8 !important;
+  stroke: #94A3B8 !important;
+}
+
+[data-md-color-scheme="slate"] .mermaid .edgeLabel,
+[data-md-color-scheme="slate"] .mermaid .edgeLabel p,
+[data-md-color-scheme="slate"] .mermaid .edgeLabel span {
+  color: #E2E8F0 !important;
+  background-color: #0F172A !important;
+}
+
+[data-md-color-scheme="slate"] .mermaid .cluster rect {
+  fill: #0F172A !important;
+  stroke: #475569 !important;
+}
+
+[data-md-color-scheme="slate"] .mermaid .cluster-label,
+[data-md-color-scheme="slate"] .mermaid .cluster-label text {
+  fill: #E2E8F0 !important;
+  color: #E2E8F0 !important;
 }
