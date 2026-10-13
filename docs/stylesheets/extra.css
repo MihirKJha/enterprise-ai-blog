@@ -144,3 +144,58 @@
 
   border-left: 2px solid #1976d2;
 }
+
+
+/* ==========================================
+   MERMAID — BASE COLORS
+   Enterprise AI Engineering Handbook
+========================================== */
+
+/* Light mode */
+
+.mermaid .node rect,
+.mermaid .node polygon,
+.mermaid .node circle {
+    fill: #E0F2FE;
+    stroke: #0284C7;
+    stroke-width: 1.5px;
+}
+
+.mermaid .nodeLabel,
+.mermaid .label text {
+    color: #0C1E35;
+    fill: #0C1E35;
+}
+
+.mermaid .edgePath .path {
+    stroke: #64748B;
+    stroke-width: 1.5px;
+}
+
+.mermaid .edgeLabel {
+    color: #334155;
+}
+
+/* Dark mode */
+
+[data-md-color-scheme="slate"] .mermaid .node rect,
+[data-md-color-scheme="slate"] .mermaid .node polygon,
+[data-md-color-scheme="slate"] .mermaid .node circle {
+    fill: #172554;
+    stroke: #38BDF8;
+    stroke-width: 1.5px;
+}
+
+[data-md-color-scheme="slate"] .mermaid .nodeLabel,
+[data-md-color-scheme="slate"] .mermaid .label text {
+    color: #F8FAFC;
+    fill: #F8FAFC;
+}
+
+[data-md-color-scheme="slate"] .mermaid .edgePath .path {
+    stroke: #94A3B8;
+}
+
+[data-md-color-scheme="slate"] .mermaid .edgeLabel {
+    color: #E2E8F0;
+}
