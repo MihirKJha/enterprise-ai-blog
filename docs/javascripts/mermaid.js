@@ -1,7 +1,7 @@
 document$.subscribe(() => {
   mermaid.initialize({
     startOnLoad: false,
-    theme: "base"
+    theme: "default"
   });
 
   mermaid.run().catch((error) => {
