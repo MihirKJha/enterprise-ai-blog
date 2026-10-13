@@ -1,49 +1,102 @@
 (() => {
-  const getMermaidTheme = () => {
-    const scheme = document.body.getAttribute("data-md-color-scheme");
-    return scheme === "slate" ? "dark" : "default";
+  "use strict";
+
+  const palettes = {
+    light: {
+      background: "#FFFFFF",
+      primaryColor: "#E0F2FE",
+      primaryTextColor: "#0C1E35",
+      primaryBorderColor: "#0284C7",
+      secondaryColor: "#D1FAE5",
+      secondaryTextColor: "#064E3B",
+      secondaryBorderColor: "#059669",
+      tertiaryColor: "#EDE9FE",
+      tertiaryTextColor: "#3B0764",
+      tertiaryBorderColor: "#7C3AED",
+      lineColor: "#64748B",
+      textColor: "#1E293B",
+      mainBkg: "#E0F2FE",
+      nodeBorder: "#0284C7",
+      clusterBkg: "#F8FAFC",
+      clusterBorder: "#94A3B8",
+      edgeLabelBackground: "#FFFFFF"
+    },
+    dark: {
+      background: "#111827",
+      primaryColor: "#172554",
+      primaryTextColor: "#F8FAFC",
+      primaryBorderColor: "#38BDF8",
+      secondaryColor: "#064E3B",
+      secondaryTextColor: "#ECFDF5",
+      secondaryBorderColor: "#34D399",
+      tertiaryColor: "#3B0764",
+      tertiaryTextColor: "#FAF5FF",
+      tertiaryBorderColor: "#C084FC",
+      lineColor: "#94A3B8",
+      textColor: "#E2E8F0",
+      mainBkg: "#172554",
+      nodeBorder: "#38BDF8",
+      clusterBkg: "#1E293B",
+      clusterBorder: "#64748B",
+      edgeLabelBackground: "#1E293B"
+    }
   };
 
-  const renderMermaid = async () => {
-    if (typeof mermaid === "undefined") return;
+  const isDark = () =>
+    document.body.dataset.mdColorScheme === "slate";
 
-    // Configure Mermaid for the current Material palette.
+  const render = async () => {
+    if (!window.mermaid) return;
+
+    const dark = isDark();
+
     mermaid.initialize({
       startOnLoad: false,
-      theme: getMermaidTheme()
+      theme: "base",
+      themeVariables: dark ? palettes.dark : palettes.light,
+      securityLevel: "strict",
+      flowchart: {
+        htmlLabels: true,
+        curve: "basis"
+      }
     });
 
-    // Reset previously rendered diagrams before re-rendering.
-    const diagrams = document.querySelectorAll(
-      ".mermaid:not([data-processed]), .mermaid[data-processed]"
-    );
+    const diagrams = [...document.querySelectorAll(".mermaid")];
 
-    for (const diagram of diagrams) {
-      const source =
-        diagram.getAttribute("data-original-source") ||
-        diagram.textContent;
-
-      if (!diagram.hasAttribute("data-original-source")) {
-        diagram.setAttribute("data-original-source", source);
+    for (const el of diagrams) {
+      if (!el.dataset.mermaidSource) {
+        el.dataset.mermaidSource = el.textContent.trim();
       }
 
-      diagram.removeAttribute("data-processed");
-      diagram.innerHTML = source;
+      el.removeAttribute("data-processed");
+      el.innerHTML = el.dataset.mermaidSource;
     }
 
-    await mermaid.run({ nodes: diagrams });
+    if (diagrams.length) {
+      try {
+        await mermaid.run({ nodes: diagrams });
+      } catch (error) {
+        console.error("Mermaid rendering failed:", error);
+      }
+    }
+  };
+
+  let lastScheme = null;
+
+  const renderOnChange = () => {
+    const scheme = isDark() ? "dark" : "light";
+    if (scheme !== lastScheme) {
+      lastScheme = scheme;
+      render();
+    }
   };
 
   document$.subscribe(() => {
-    renderMermaid();
+    lastScheme = null;
+    renderOnChange();
   });
 
-  // Respond to Material's palette toggle.
-  const observer = new MutationObserver(() => {
-    renderMermaid();
-  });
-
-  observer.observe(document.body, {
+  new MutationObserver(renderOnChange).observe(document.body, {
     attributes: true,
     attributeFilter: ["data-md-color-scheme"]
   });
