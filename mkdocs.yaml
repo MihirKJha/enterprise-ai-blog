@@ -153,7 +153,12 @@ nav:
           - Engineering Query-to-Knowledge Alignment: architecture-insights/genai-and-rag/3.9_engineering_query_to_knowledge_alignment.md
           - Architecting Graph RAG for Relationship-Aware Enterprise Knowledge: architecture-insights/genai-and-rag/4.1_architecting_graph_rag_relationship_aware_enterprise_knowledge.md
           - Architecting SQL RAG for Structured Enterprise Knowledge: architecture-insights/genai-and-rag/4.2_architecting_sql_rag_structured_enterprise_knowledge.md
+          - Designing Multimodal RAG for Enterprise Knowledge: architecture-insights/genai-and-rag/4.3_designing-multimodal-rag-for-enterprise-knowledge.md
+      
 
+      - AI Agents:
+          - Where RAG Fits in Architecture: architecture-insights/genai-and-rag/1.1-where-rag-fits-in-enterprise-ai-architecture.md
+     
 
   - Articles:
 
