@@ -157,7 +157,12 @@ nav:
       
 
       - AI Agents:
-          - Where RAG Fits in Architecture: architecture-insights/genai-and-rag/1.1-where-rag-fits-in-enterprise-ai-architecture.md
+          - Anatomy of an AI Agent Harness: architecture-insights/ai-agents/5.0-anatomy_of_an_ai_agent_harness.md
+          - Engineering Bounded Enterprise AI Agents: architecture-insights/ai-agents/5.1-engineering-bounded-enterprise-agents.md
+          - Designing Typed Tool Contracts for Enterprise AI Agents: architecture-insights/ai-agents/5.2-designing-typed-tool-contracts-enterprise-agents.md
+          - Architecting AI Agent State for Enterprise Systems: architecture-insights/ai-agents/5.3-architecting-ai-agent-state.md
+          - Selecting the Right Enterprise AI Execution Model: architecture-insights/ai-agents/5.4-selecting-enterprise-ai-execution-model.md
+          - Architecting Agent Planning and Reflection: architecture-insights/ai-agents/5.5-architecting-agent-planning-reflection.md
      
 
   - Articles:
