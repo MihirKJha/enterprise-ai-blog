@@ -163,7 +163,14 @@ nav:
           #- Architecting AI Agent State for Enterprise Systems: architecture-insights/ai-agents/5.3-architecting-ai-agent-state.md
           #- Selecting the Right Enterprise AI Execution Model: architecture-insights/ai-agents/5.4-selecting-enterprise-ai-execution-model.md
           #- Architecting Agent Planning and Reflection: architecture-insights/ai-agents/5.5-architecting-agent-planning-reflection.md
-     
+      
+      - Agentic AI:
+          - Architecting Stateful Agentic Workflows: architecture-insights/agentic-ai/6.1-architecting-stateful-agentic-workflows.md
+          #- Engineering Durable Agent Execution: architecture-insights/agentic-ai/6.2-engineering-durable-agent-execution.md
+          #- Designing Human Approval Workflows for Enterprise AI: architecture-insights/agentic-ai/6.3_designing_human_approval_control_workflows.md
+          #- Integrating MCP: architecture-insights/agentic-ai/6.4_integrating_mcp_in_enterprise_ai_agent.md
+          #- Architecting Agent-to-Agent Interoperability: architecture-insights/agentic-ai/6.5_agent_to_agent_Interoperability.md
+        
 
   - Articles:
 
